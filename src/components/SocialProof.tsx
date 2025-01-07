@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     quote: "EasySafe ha rivoluzionato la gestione della sicurezza nella nostra azienda.",
-    author: "Marco Rossi",
+    author: "Marco V.",
     role: "Direttore Operativo",
     company: "TechnoLogistics SpA"
   },
   {
     quote: "Riduzione del 75% degli incidenti sul lavoro nel primo anno di utilizzo.",
-    author: "Laura Bianchi",
+    author: "Laura G.",
     role: "Responsabile Sicurezza",
     company: "Industrial Solutions"
   },
   {
     quote: "Un investimento che ha migliorato sia la sicurezza che la produttività.",
-    author: "Giuseppe Verdi",
+    author: "Giuseppe A.",
     role: "CEO",
     company: "Costruzioni Moderne"
   }

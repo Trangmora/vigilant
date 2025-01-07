@@ -64,13 +64,16 @@ const Solution = () => {
 
         <div className="mt-16 text-center">
           <img 
-            src="/lovable-uploads/c92cf7c1-7ce1-4141-84e7-4f2d73d43787.png" 
+            src="/lovable-uploads/748e7bee-a138-4392-995b-89688d6468a1.png" 
             alt="EasySafe Smartwatch" 
             className="max-w-md mx-auto mb-8 rounded-lg shadow-xl animate-fade-in"
           />
           <Button 
-            className="bg-[#2ecc71] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#27ae60] transition-colors"
-            onClick={() => navigate("/contatto")}
+            className="bg-[#2ecc71] text-white px-12 py-6 text-xl rounded-full font-semibold hover:bg-[#27ae60] transition-colors"
+            onClick={() => {
+              const element = document.getElementById('contatti');
+              element?.scrollIntoView({ behavior: 'smooth' });
+            }}
           >
             Scopri tutte le funzionalità
           </Button>

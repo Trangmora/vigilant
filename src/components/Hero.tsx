@@ -6,7 +6,6 @@ const Hero = () => {
 
   return (
     <div className="relative min-h-screen flex items-center justify-center text-white overflow-hidden" id="home">
-      {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -18,7 +17,6 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
       </div>
 
-      {/* Content */}
       <div className="container mx-auto px-4 relative z-10 pt-16">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h1 className="text-4xl md:text-6xl font-bold font-montserrat animate-fade-in">
@@ -33,9 +31,12 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-[#2ecc71] hover:bg-[#2ecc71]/90 text-white px-8 py-6 text-lg"
-              onClick={() => navigate("/contatto")}
+              onClick={() => {
+                const element = document.getElementById('contatti');
+                element?.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
-              Scopri come proteggere i tuoi lavoratori
+              Scopri come proteggere la tua azienda
             </Button>
           </div>
         </div>
