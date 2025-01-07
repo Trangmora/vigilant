@@ -5,6 +5,7 @@ import Challenge from "@/components/Challenge";
 import CaseStudies from "@/components/CaseStudies";
 import Solution from "@/components/Solution";
 import Features from "@/components/Features";
+import Team from "@/components/Team";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <CaseStudies />
       <Solution />
       <Features />
+      <Team />
     </main>
   );
 };
