@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, AlertCircle } from "lucide-react";
 
 const CaseStudies = () => {
   const [activeCase, setActiveCase] = useState(0);
+  const [autoplay, setAutoplay] = useState(true);
 
   const cases = [
     {
@@ -42,11 +43,23 @@ const CaseStudies = () => {
     }
   ];
 
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+    if (autoplay) {
+      interval = setInterval(() => {
+        setActiveCase((prev) => (prev + 1) % cases.length);
+      }, 3000);
+    }
+    return () => clearInterval(interval);
+  }, [autoplay, cases.length]);
+
   const nextCase = () => {
+    setAutoplay(false);
     setActiveCase((prev) => (prev + 1) % cases.length);
   };
 
   const prevCase = () => {
+    setAutoplay(false);
     setActiveCase((prev) => (prev - 1 + cases.length) % cases.length);
   };
 
@@ -114,7 +127,10 @@ const CaseStudies = () => {
                 className={`w-3 h-3 rounded-full transition-colors ${
                   index === activeCase ? "bg-[#2ecc71]" : "bg-[#2ecc71]/30"
                 }`}
-                onClick={() => setActiveCase(index)}
+                onClick={() => {
+                  setAutoplay(false);
+                  setActiveCase(index);
+                }}
               />
             ))}
           </div>

@@ -48,9 +48,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contatti</h4>
             <ul className="space-y-2 text-gray-300">
+              <li>MPCT</li>
               <li>Via Zanetti 1</li>
               <li>34133 Trieste (TS)</li>
-              <li>Tel: +39 02 1234567</li>
               <li>Email: info@easysafe.it</li>
             </ul>
           </div>
