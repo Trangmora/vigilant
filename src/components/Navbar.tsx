@@ -79,7 +79,7 @@ const Navbar = () => {
             className="hidden md:inline-flex bg-[#2ecc71] hover:bg-[#2ecc71]/90"
             onClick={() => scrollToSection('contatti')}
           >
-            Richiedi Demo
+            Richiedi prova gratuita
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden">
             <Menu className="h-6 w-6" />

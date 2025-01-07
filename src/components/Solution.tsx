@@ -68,16 +68,16 @@ const Solution = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left space-y-6">
               <h3 className="text-2xl font-bold text-[#1a365d]">
-                EasySafe Smart Watch
+                Software di Sicurezza Integrato
               </h3>
               <p className="text-gray-600">
-                Il nostro dispositivo indossabile monitora costantemente i parametri vitali e ambientali per garantire la massima sicurezza sul lavoro.
+                La nostra piattaforma software garantisce una sicurezza a 360 gradi con un'efficacia del 90%. Monitora, analizza e previene i rischi in tempo reale, offrendo una protezione completa per la tua azienda.
               </p>
             </div>
             <div className="flex justify-center">
               <img 
-                src="/lovable-uploads/81d23095-5d9a-4924-8fe0-50e691a9d65b.png" 
-                alt="EasySafe Smartwatch" 
+                src="/lovable-uploads/15188429-e5a0-4e42-875c-257f0a747d52.png" 
+                alt="EasySafe Software" 
                 className="max-w-[300px] animate-fade-in"
               />
             </div>
