@@ -4,6 +4,7 @@ import MissionStatement from "@/components/MissionStatement";
 import Challenge from "@/components/Challenge";
 import CaseStudies from "@/components/CaseStudies";
 import Solution from "@/components/Solution";
+import Features from "@/components/Features";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <Challenge />
       <CaseStudies />
       <Solution />
+      <Features />
     </main>
   );
 };
