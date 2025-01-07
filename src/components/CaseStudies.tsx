@@ -51,7 +51,7 @@ const CaseStudies = () => {
   };
 
   return (
-    <section className="py-20 bg-[#1a365d] text-white">
+    <section className="py-20 bg-gradient-to-br from-[#0f2744]/90 to-[#1a365d]/70 backdrop-blur-sm text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-8 mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-montserrat animate-fade-in">
@@ -66,13 +66,13 @@ const CaseStudies = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 text-white"
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 text-white hover:bg-white/10"
             onClick={prevCase}
           >
             <ChevronLeft className="h-8 w-8" />
           </Button>
 
-          <Card className="bg-white/10 backdrop-blur-md border-none">
+          <Card className="bg-white/5 backdrop-blur-md border-none shadow-xl">
             <CardContent className="p-8">
               <div className="flex items-center gap-4 mb-6">
                 <AlertCircle className="w-8 h-8 text-[#2ecc71]" />
@@ -88,7 +88,7 @@ const CaseStudies = () => {
                 {cases[activeCase].consequences.map((consequence, index) => (
                   <div
                     key={index}
-                    className="p-4 bg-white/5 rounded-lg animate-fade-in"
+                    className="p-4 bg-white/10 rounded-lg animate-fade-in hover:bg-white/15 transition-colors"
                     style={{ animationDelay: `${index * 100}ms` }}
                   >
                     {consequence}
@@ -101,7 +101,7 @@ const CaseStudies = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 text-white"
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 text-white hover:bg-white/10"
             onClick={nextCase}
           >
             <ChevronRight className="h-8 w-8" />
