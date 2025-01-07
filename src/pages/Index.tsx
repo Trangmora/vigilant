@@ -6,6 +6,8 @@ import CaseStudies from "@/components/CaseStudies";
 import Solution from "@/components/Solution";
 import Features from "@/components/Features";
 import Team from "@/components/Team";
+import SocialProof from "@/components/SocialProof";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -18,6 +20,8 @@ const Index = () => {
       <Solution />
       <Features />
       <Team />
+      <SocialProof />
+      <Footer />
     </main>
   );
 };
