@@ -1,11 +1,13 @@
 import { Button } from "@/components/ui/button";
-import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
-  const navigate = useNavigate();
+  const scrollToCalendly = () => {
+    const element = document.getElementById('contatti');
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center text-white overflow-hidden" id="home">
+    <div className="relative min-h-[80vh] flex items-center justify-center text-white overflow-hidden" id="home">
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
@@ -31,10 +33,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-[#2ecc71] hover:bg-[#2ecc71]/90 text-white px-8 py-6 text-lg"
-              onClick={() => {
-                const element = document.getElementById('contatti');
-                element?.scrollIntoView({ behavior: 'smooth' });
-              }}
+              onClick={scrollToCalendly}
             >
               Scopri come proteggere la tua azienda
             </Button>

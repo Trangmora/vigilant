@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { Menu } from "lucide-react";
-import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -25,7 +22,6 @@ const Navbar = () => {
           </span>
         </div>
 
-        {/* Desktop Menu */}
         <div className="hidden md:block">
           <NavigationMenu>
             <NavigationMenuList>
@@ -60,7 +56,7 @@ const Navbar = () => {
                 <Button 
                   variant="ghost" 
                   className="text-[#1a365d]"
-                  onClick={() => scrollToSection('mission')}
+                  onClick={() => scrollToSection('chi-siamo')}
                 >
                   Chi Siamo
                 </Button>
@@ -69,7 +65,7 @@ const Navbar = () => {
                 <Button 
                   variant="ghost" 
                   className="text-[#1a365d]"
-                  onClick={() => navigate('/contatto')}
+                  onClick={() => scrollToSection('contatti')}
                 >
                   Contatti
                 </Button>
@@ -81,7 +77,7 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           <Button 
             className="hidden md:inline-flex bg-[#2ecc71] hover:bg-[#2ecc71]/90"
-            onClick={() => navigate("/contatto")}
+            onClick={() => scrollToSection('contatti')}
           >
             Richiedi Demo
           </Button>

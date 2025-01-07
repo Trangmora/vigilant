@@ -6,28 +6,28 @@ const Team = () => {
     {
       name: "Marco",
       role: "Product Manager",
-      quote: "10 anni di esperienza in soluzioni IoT per la sicurezza",
+      quote: "Consulente IT e tech con 10 anni di esperienza",
       image: "/lovable-uploads/847843db-90c8-44b0-abfc-a02bcd84cbb5.png",
       initials: "MP"
     },
     {
       name: "Federico",
       role: "Strategy Manager",
-      quote: "Background in risk management e operations",
+      quote: "Imprenditore con 10 anni di esperienza nell'immobiliare e nelle app",
       image: "/lovable-uploads/d72d797d-feb9-4b1c-b092-e38c77b811bf.png",
       initials: "FS"
     },
     {
       name: "Simona",
       role: "Business Development Manager",
-      quote: "Esperta in implementazione soluzioni enterprise",
+      quote: "Esperta in implementazione soluzioni enterprise e di Startup",
       image: "/lovable-uploads/3a916c49-5f9a-40d9-ab75-b28523b2a154.png",
       initials: "SB"
     }
   ];
 
   return (
-    <section className="py-24 bg-white" id="chi-siamo">
+    <section className="py-16 bg-white" id="chi-siamo">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-montserrat font-bold text-center mb-4">
           Chi Siamo
@@ -52,8 +52,8 @@ const Team = () => {
                 <p className="text-[#2ecc71] font-semibold mb-4">
                   {member.role}
                 </p>
-                <p className="text-gray-600 italic">
-                  "{member.quote}"
+                <p className="text-gray-600">
+                  {member.quote}
                 </p>
               </CardContent>
             </Card>

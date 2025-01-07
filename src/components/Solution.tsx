@@ -1,7 +1,6 @@
-import { Shield, Activity, Bell, Phone } from "lucide-react";
+import { Shield, Activity, Bell, Phone, ArrowUp } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { useNavigate } from "react-router-dom";
 
 const features = [
   {
@@ -20,19 +19,22 @@ const features = [
     description: "Identificazione anticipata dei potenziali rischi"
   },
   {
-    icon: <Phone className="w-8 h-8 text-[#2ecc71]" />,
-    title: "Gestione Emergenze",
+    icon: <ArrowUp className="w-8 h-8 text-[#2ecc71]" />,
+    title: "Prevenzione attiva",
     description: "Risposta immediata in caso di incidenti"
   }
 ];
 
 const Solution = () => {
-  const navigate = useNavigate();
+  const scrollToCalendly = () => {
+    const element = document.getElementById('contatti');
+    element?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
-    <section className="py-24 bg-white" id="soluzione">
+    <section className="py-16 bg-white" id="soluzione">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center mb-16">
+        <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-6 text-[#1a365d]">
             La Soluzione EasySafe
           </h2>
@@ -47,8 +49,8 @@ const Solution = () => {
               key={index}
               className="border-none shadow-lg hover:shadow-xl transition-shadow"
             >
-              <CardContent className="p-6 text-center">
-                <div className="mb-6 flex justify-center">
+              <CardContent className="p-6 text-center flex flex-col items-center justify-center min-h-[200px]">
+                <div className="mb-6">
                   {feature.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-[#1a365d]">
@@ -69,11 +71,8 @@ const Solution = () => {
             className="max-w-md mx-auto mb-8 rounded-lg shadow-xl animate-fade-in"
           />
           <Button 
-            className="bg-[#2ecc71] text-white px-12 py-6 text-xl rounded-full font-semibold hover:bg-[#27ae60] transition-colors"
-            onClick={() => {
-              const element = document.getElementById('contatti');
-              element?.scrollIntoView({ behavior: 'smooth' });
-            }}
+            className="bg-[#2ecc71] text-white px-16 py-8 text-xl rounded-full font-semibold hover:bg-[#2ecc71]/90 transition-colors"
+            onClick={scrollToCalendly}
           >
             Scopri tutte le funzionalità
           </Button>
