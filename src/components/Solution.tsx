@@ -1,5 +1,7 @@
 import { Shield, Activity, Bell, Phone } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 const features = [
   {
@@ -25,6 +27,8 @@ const features = [
 ];
 
 const Solution = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4">
@@ -64,9 +68,12 @@ const Solution = () => {
             alt="EasySafe Smartwatch" 
             className="max-w-md mx-auto mb-8 rounded-lg shadow-xl animate-fade-in"
           />
-          <button className="bg-[#2ecc71] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#27ae60] transition-colors">
+          <Button 
+            className="bg-[#2ecc71] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#27ae60] transition-colors"
+            onClick={() => navigate("/funzionalita")}
+          >
             Scopri tutte le funzionalità
-          </button>
+          </Button>
         </div>
       </div>
     </section>

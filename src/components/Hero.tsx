@@ -1,6 +1,17 @@
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
+import { toast } from "@/components/ui/use-toast";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleDemoRequest = () => {
+    toast({
+      title: "Richiesta Demo",
+      description: "La tua richiesta è stata inviata con successo. Ti contatteremo presto!",
+    });
+  };
+
   return (
     <div className="relative min-h-screen flex items-center justify-center text-white overflow-hidden">
       {/* Background Image */}
@@ -27,7 +38,11 @@ const Hero = () => {
           </p>
           
           <div className="space-y-6 animate-fade-in delay-300">
-            <Button size="lg" className="bg-[#2ecc71] hover:bg-[#2ecc71]/90 text-white px-8 py-6 text-lg">
+            <Button 
+              size="lg" 
+              className="bg-[#2ecc71] hover:bg-[#2ecc71]/90 text-white px-8 py-6 text-lg"
+              onClick={() => navigate("/soluzione")}
+            >
               Scopri come proteggere i tuoi lavoratori
             </Button>
             
