@@ -30,7 +30,7 @@ const Solution = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white" id="soluzione">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-6 text-[#1a365d]">
@@ -64,7 +64,7 @@ const Solution = () => {
 
         <div className="mt-16 text-center">
           <img 
-            src="/lovable-uploads/74dca400-7a4d-4913-b13d-8f2e73e2da53.png" 
+            src="/lovable-uploads/c92cf7c1-7ce1-4141-84e7-4f2d73d43787.png" 
             alt="EasySafe Smartwatch" 
             className="max-w-md mx-auto mb-8 rounded-lg shadow-xl animate-fade-in"
           />

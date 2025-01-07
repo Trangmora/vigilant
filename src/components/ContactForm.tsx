@@ -18,7 +18,6 @@ const ContactForm = () => {
       });
     }
 
-    // Listener per gli eventi Calendly
     const handleCalendlyEvent = (e: any) => {
       if (e.data.event === 'calendly.event_scheduled') {
         toast({
@@ -36,7 +35,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="py-24 bg-gray-50">
+    <div className="py-24 bg-gray-50" id="contatti">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold text-[#1a365d] mb-8 text-center">

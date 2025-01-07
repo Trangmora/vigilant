@@ -5,7 +5,7 @@ const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="relative min-h-screen flex items-center justify-center text-white overflow-hidden">
+    <div className="relative min-h-screen flex items-center justify-center text-white overflow-hidden" id="home">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
@@ -37,10 +37,6 @@ const Hero = () => {
             >
               Scopri come proteggere i tuoi lavoratori
             </Button>
-            
-            <div className="text-sm md:text-base text-gray-200">
-              <span className="font-semibold">100+ aziende</span> ci hanno già scelto
-            </div>
           </div>
         </div>
       </div>

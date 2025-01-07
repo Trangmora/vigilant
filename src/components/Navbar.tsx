@@ -6,11 +6,21 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-[#1a365d] cursor-pointer" onClick={() => navigate("/")}>
+          <span 
+            className="text-2xl font-bold text-[#1a365d] cursor-pointer" 
+            onClick={() => scrollToSection('home')}
+          >
             EasySafe
           </span>
         </div>
@@ -19,17 +29,51 @@ const Navbar = () => {
         <div className="hidden md:block">
           <NavigationMenu>
             <NavigationMenuList>
-              {["Home", "Soluzione", "Case Studies", "Chi Siamo", "Contatti"].map((item) => (
-                <NavigationMenuItem key={item}>
-                  <Button 
-                    variant="ghost" 
-                    className="text-[#1a365d]"
-                    onClick={() => navigate(item.toLowerCase())}
-                  >
-                    {item}
-                  </Button>
-                </NavigationMenuItem>
-              ))}
+              <NavigationMenuItem>
+                <Button 
+                  variant="ghost" 
+                  className="text-[#1a365d]"
+                  onClick={() => scrollToSection('home')}
+                >
+                  Home
+                </Button>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Button 
+                  variant="ghost" 
+                  className="text-[#1a365d]"
+                  onClick={() => scrollToSection('soluzione')}
+                >
+                  Soluzione
+                </Button>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Button 
+                  variant="ghost" 
+                  className="text-[#1a365d]"
+                  onClick={() => scrollToSection('case-studies')}
+                >
+                  Case Studies
+                </Button>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Button 
+                  variant="ghost" 
+                  className="text-[#1a365d]"
+                  onClick={() => scrollToSection('mission')}
+                >
+                  Chi Siamo
+                </Button>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <Button 
+                  variant="ghost" 
+                  className="text-[#1a365d]"
+                  onClick={() => navigate('/contatto')}
+                >
+                  Contatti
+                </Button>
+              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
         </div>
