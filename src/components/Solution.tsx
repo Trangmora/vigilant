@@ -64,20 +64,20 @@ const Solution = () => {
           ))}
         </div>
 
-        <div className="bg-gray-50 rounded-xl p-8 mb-16">
+        <div className="bg-[#222222] rounded-xl p-8 mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left space-y-6">
-              <h3 className="text-2xl font-bold text-[#1a365d]">
-                Software di Sicurezza Integrato
+              <h3 className="text-2xl font-bold text-white">
+                Facile, sicuro e accessibile
               </h3>
-              <p className="text-gray-600">
-                La nostra piattaforma software garantisce una sicurezza a 360 gradi con un'efficacia del 90%. Monitora, analizza e previene i rischi in tempo reale, offrendo una protezione completa per la tua azienda.
+              <p className="text-gray-300">
+                Protegge, previene e gestisce rapidamente l'emergenza. È l'80% più efficace del dispositivo uomo a terra
               </p>
             </div>
             <div className="flex justify-center">
               <img 
-                src="/lovable-uploads/15188429-e5a0-4e42-875c-257f0a747d52.png" 
-                alt="EasySafe Software" 
+                src="/lovable-uploads/a29eeb9c-61eb-4196-ba9b-98f1fb1b3899.png" 
+                alt="EasySafe Smartwatch" 
                 className="max-w-[300px] animate-fade-in"
               />
             </div>

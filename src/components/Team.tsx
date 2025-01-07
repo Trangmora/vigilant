@@ -12,7 +12,7 @@ const Team = () => {
     },
     {
       name: "Federico",
-      role: "Strategy Manager",
+      role: "Strategy",
       quote: "Imprenditore con 10 anni di esperienza nell'immobiliare e nelle app",
       image: "/lovable-uploads/d72d797d-feb9-4b1c-b092-e38c77b811bf.png",
       initials: "FS"
