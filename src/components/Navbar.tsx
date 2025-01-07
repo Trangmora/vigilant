@@ -2,21 +2,9 @@ import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { Menu } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { toast } from "@/components/ui/use-toast";
 
 const Navbar = () => {
   const navigate = useNavigate();
-
-  const handleDemoRequest = () => {
-    toast({
-      title: "Richiesta Demo",
-      description: "La tua richiesta è stata inviata con successo. Ti contatteremo presto!",
-    });
-  };
-
-  const handleNavigation = (path: string) => {
-    navigate(path.toLowerCase());
-  };
 
   return (
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
@@ -36,7 +24,7 @@ const Navbar = () => {
                   <Button 
                     variant="ghost" 
                     className="text-[#1a365d]"
-                    onClick={() => handleNavigation(item)}
+                    onClick={() => navigate(item.toLowerCase())}
                   >
                     {item}
                   </Button>
@@ -49,7 +37,7 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           <Button 
             className="hidden md:inline-flex bg-[#2ecc71] hover:bg-[#2ecc71]/90"
-            onClick={handleDemoRequest}
+            onClick={() => navigate("/contatto")}
           >
             Richiedi Demo
           </Button>

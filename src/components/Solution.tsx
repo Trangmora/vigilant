@@ -64,13 +64,13 @@ const Solution = () => {
 
         <div className="mt-16 text-center">
           <img 
-            src="/placeholder.svg" 
+            src="/lovable-uploads/74dca400-7a4d-4913-b13d-8f2e73e2da53.png" 
             alt="EasySafe Smartwatch" 
             className="max-w-md mx-auto mb-8 rounded-lg shadow-xl animate-fade-in"
           />
           <Button 
             className="bg-[#2ecc71] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#27ae60] transition-colors"
-            onClick={() => navigate("/funzionalita")}
+            onClick={() => navigate("/contatto")}
           >
             Scopri tutte le funzionalità
           </Button>
