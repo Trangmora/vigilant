@@ -16,26 +16,26 @@ const Features = () => {
 
         <div className="max-w-5xl mx-auto">
           <Tabs defaultValue="personal" className="w-full">
-            <TabsList className="grid w-full grid-cols-1 md:grid-cols-3">
-              <TabsTrigger value="personal">Sicurezza Personale</TabsTrigger>
-              <TabsTrigger value="emergency">Gestione Emergenze</TabsTrigger>
-              <TabsTrigger value="prevention">Prevenzione</TabsTrigger>
+            <TabsList className="grid w-full grid-cols-3 max-w-md mx-auto">
+              <TabsTrigger value="personal" className="text-sm md:text-base">Sicurezza Personale</TabsTrigger>
+              <TabsTrigger value="emergency" className="text-sm md:text-base">Gestione Emergenze</TabsTrigger>
+              <TabsTrigger value="prevention" className="text-sm md:text-base">Prevenzione</TabsTrigger>
             </TabsList>
             
             <TabsContent value="personal" className="mt-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                  <Shield className="w-12 h-12 text-[#2ecc71] mb-4" />
+                  <Shield className="w-12 h-12 text-[#0EA5E9] mb-4" />
                   <h3 className="text-xl font-bold mb-3 text-[#1a365d]">Tasto SOS</h3>
                   <p className="text-gray-600">Attivazione immediata delle procedure di emergenza con un solo tocco</p>
                 </div>
                 <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                  <Activity className="w-12 h-12 text-[#2ecc71] mb-4" />
+                  <Activity className="w-12 h-12 text-[#0EA5E9] mb-4" />
                   <h3 className="text-xl font-bold mb-3 text-[#1a365d]">Rilevamento cadute</h3>
                   <p className="text-gray-600">Sistema automatico di rilevamento cadute con alert immediato</p>
                 </div>
                 <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                  <Bell className="w-12 h-12 text-[#2ecc71] mb-4" />
+                  <Bell className="w-12 h-12 text-[#0EA5E9] mb-4" />
                   <h3 className="text-xl font-bold mb-3 text-[#1a365d]">Monitoraggio parametri vitali</h3>
                   <p className="text-gray-600">Controllo continuo dei parametri vitali del lavoratore</p>
                 </div>
