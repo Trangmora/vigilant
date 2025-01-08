@@ -64,10 +64,10 @@ const CaseStudies = () => {
   };
 
   return (
-    <section className="py-16 bg-[#2ecc71]/10" id="case-studies">
+    <section className="py-16 bg-[#0EA5E9]/10" id="case-studies">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6 mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-montserrat text-[#1a365d] animate-fade-in">
+          <h2 className="text-3xl md:text-4xl font-bold font-montserrat text-[rgba(0,0,46,255)] animate-fade-in">
             Storie vere
           </h2>
           <p className="text-xl text-gray-600 animate-fade-in delay-200">
@@ -79,7 +79,7 @@ const CaseStudies = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 text-[#1a365d] hover:bg-[#2ecc71]/10"
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 text-[rgba(0,0,46,255)] hover:bg-[rgba(242,181,45,255)]/10"
             onClick={prevCase}
           >
             <ChevronLeft className="h-8 w-8" />
@@ -88,20 +88,20 @@ const CaseStudies = () => {
           <Card className="bg-white shadow-xl border-none">
             <CardContent className="p-8">
               <div className="flex items-center gap-4 mb-6">
-                <AlertCircle className="w-8 h-8 text-[#2ecc71]" />
+                <AlertCircle className="w-8 h-8 text-[rgba(242,181,45,255)]" />
                 <div>
-                  <h3 className="text-2xl font-bold text-[#1a365d]">{cases[activeCase].company}</h3>
+                  <h3 className="text-2xl font-bold text-[rgba(0,0,46,255)]">{cases[activeCase].company}</h3>
                   <p className="text-gray-600">{cases[activeCase].location}</p>
                 </div>
               </div>
               
-              <p className="text-xl mb-6 font-semibold text-[#1a365d]">{cases[activeCase].incident}</p>
+              <p className="text-xl mb-6 font-semibold text-[rgba(0,0,46,255)]">{cases[activeCase].incident}</p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {cases[activeCase].consequences.map((consequence, index) => (
                   <div
                     key={index}
-                    className="p-4 bg-[#2ecc71]/5 rounded-lg animate-fade-in hover:bg-[#2ecc71]/10 transition-colors text-gray-700"
+                    className="p-4 bg-[rgba(242,181,45,255)]/5 rounded-lg animate-fade-in hover:bg-[rgba(242,181,45,255)]/10 transition-colors text-gray-700"
                     style={{ animationDelay: `${index * 100}ms` }}
                   >
                     {consequence}
@@ -114,7 +114,7 @@ const CaseStudies = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 text-[#1a365d] hover:bg-[#2ecc71]/10"
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 text-[rgba(0,0,46,255)] hover:bg-[rgba(242,181,45,255)]/10"
             onClick={nextCase}
           >
             <ChevronRight className="h-8 w-8" />
@@ -125,7 +125,7 @@ const CaseStudies = () => {
               <button
                 key={index}
                 className={`w-3 h-3 rounded-full transition-colors ${
-                  index === activeCase ? "bg-[#2ecc71]" : "bg-[#2ecc71]/30"
+                  index === activeCase ? "bg-[rgba(242,181,45,255)]" : "bg-[rgba(242,181,45,255)]/30"
                 }`}
                 onClick={() => {
                   setAutoplay(false);

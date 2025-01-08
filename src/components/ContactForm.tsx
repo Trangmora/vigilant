@@ -53,7 +53,8 @@ const ContactForm = () => {
               border: '1px solid #E5E7EB',
               borderRadius: '8px',
               position: 'relative',
-              overflow: 'hidden'
+              overflow: 'hidden',
+              WebkitOverflowScrolling: 'touch'
             }}
           />
         </div>

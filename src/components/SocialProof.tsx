@@ -43,7 +43,7 @@ const SocialProof = () => {
                 <div className="border-t pt-4">
                   <p className="font-semibold">{testimonial.author}</p>
                   <p className="text-sm text-gray-500">{testimonial.role}</p>
-                  <p className="text-sm text-[#2ecc71]">{testimonial.company}</p>
+                  <p className="text-sm text-[rgba(242,181,45,255)]">{testimonial.company}</p>
                 </div>
               </div>
             </motion.div>
