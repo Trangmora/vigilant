@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="space-y-6 animate-fade-in delay-300">
             <Button 
               size="lg" 
-              className="bg-[#0EA5E9] hover:bg-[#0EA5E9]/90 text-white px-6 py-4 text-base md:px-8 md:py-6 md:text-lg"
+              className="bg-[#2ecc71] hover:bg-[#2ecc71]/90 text-white px-8 py-6 text-lg"
               onClick={scrollToCalendly}
             >
               Scopri come proteggere la tua azienda

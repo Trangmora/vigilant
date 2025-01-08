@@ -42,11 +42,10 @@ const ContactForm = () => {
             Richiedi una Demo
           </h2>
           <p className="text-gray-600 mb-8 text-center">
-            Prenota una videochiamata dimostrativa di EasySafe
+            Prenota una demo personalizzata di EasySafe
           </p>
           <div 
             id="calendly-embed" 
-            className="overflow-hidden rounded-lg shadow-lg"
             style={{ 
               minWidth: '320px',
               height: '700px'
