@@ -16,7 +16,7 @@ const Hero = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-[#1a365d]/80 backdrop-blur-sm"></div>
+        <div className="absolute inset-0 bg-[#0EA5E9]/80 backdrop-blur-sm"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10 pt-16">
@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="space-y-4 animate-fade-in delay-300">
             <Button 
               size="lg" 
-              className="bg-[#F59E0B] hover:bg-[#F59E0B]/90 text-white px-6 py-5 text-base md:text-lg md:px-8 md:py-6"
+              className="bg-[#F59E0B] hover:bg-[#F59E0B]/90 text-white px-6 py-5 text-sm md:text-lg md:px-8 md:py-6"
               onClick={scrollToCalendly}
             >
               Scopri come proteggere la tua azienda

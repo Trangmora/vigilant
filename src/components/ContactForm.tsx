@@ -46,11 +46,10 @@ const ContactForm = () => {
           </p>
           <div 
             id="calendly-embed" 
-            className="relative w-full"
+            className="relative w-full overflow-hidden"
             style={{ 
               minWidth: '320px',
-              height: '700px',
-              overflow: 'hidden'
+              height: '700px'
             }}
           />
         </div>
