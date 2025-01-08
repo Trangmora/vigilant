@@ -6,7 +6,7 @@ const Features = () => {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-6 text-[#1a365d]">
+          <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-6 text-[rgba(0,0,46,255)]">
             Funzionalità Complete
           </h2>
           <p className="text-xl text-gray-600">
@@ -17,26 +17,41 @@ const Features = () => {
         <div className="max-w-5xl mx-auto">
           <Tabs defaultValue="personal" className="w-full">
             <TabsList className="grid w-full grid-cols-3 h-auto">
-              <TabsTrigger value="personal" className="px-2 py-2 text-sm md:text-base">Sicurezza Personale</TabsTrigger>
-              <TabsTrigger value="emergency" className="px-2 py-2 text-sm md:text-base">Gestione Emergenze</TabsTrigger>
-              <TabsTrigger value="prevention" className="px-2 py-2 text-sm md:text-base">Prevenzione</TabsTrigger>
+              <TabsTrigger 
+                value="personal" 
+                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px]"
+              >
+                Sicurezza Personale
+              </TabsTrigger>
+              <TabsTrigger 
+                value="emergency" 
+                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px]"
+              >
+                Gestione Emergenze
+              </TabsTrigger>
+              <TabsTrigger 
+                value="prevention" 
+                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px]"
+              >
+                Prevenzione
+              </TabsTrigger>
             </TabsList>
             
             <TabsContent value="personal" className="mt-8">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                  <Shield className="w-8 h-8 text-[#F59E0B] mb-4" />
-                  <h3 className="text-xl font-bold mb-3 text-[#1a365d]">Tasto SOS</h3>
+                  <Shield className="w-8 h-8 text-[rgba(242,181,45,255)] mb-4" />
+                  <h3 className="text-xl font-bold mb-3 text-[rgba(0,0,46,255)]">Tasto SOS</h3>
                   <p className="text-gray-600">Attivazione immediata delle procedure di emergenza con un solo tocco</p>
                 </div>
                 <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                  <Activity className="w-8 h-8 text-[#F59E0B] mb-4" />
-                  <h3 className="text-xl font-bold mb-3 text-[#1a365d]">Rilevamento cadute</h3>
+                  <Activity className="w-8 h-8 text-[rgba(242,181,45,255)] mb-4" />
+                  <h3 className="text-xl font-bold mb-3 text-[rgba(0,0,46,255)]">Rilevamento cadute</h3>
                   <p className="text-gray-600">Sistema automatico di rilevamento cadute con alert immediato</p>
                 </div>
                 <div className="p-6 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                  <Bell className="w-8 h-8 text-[#F59E0B] mb-4" />
-                  <h3 className="text-xl font-bold mb-3 text-[#1a365d]">Monitoraggio parametri vitali</h3>
+                  <Bell className="w-8 h-8 text-[rgba(242,181,45,255)] mb-4" />
+                  <h3 className="text-xl font-bold mb-3 text-[rgba(0,0,46,255)]">Monitoraggio parametri vitali</h3>
                   <p className="text-gray-600">Controllo continuo dei parametri vitali del lavoratore</p>
                 </div>
               </div>

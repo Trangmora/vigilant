@@ -38,7 +38,7 @@ const ContactForm = () => {
     <div className="py-24 bg-gray-50 relative" id="contatti">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-4 text-center">
+          <h2 className="text-3xl font-bold text-[rgba(0,0,46,255)] mb-4 text-center">
             Richiedi una Demo
           </h2>
           <p className="text-gray-600 mb-8 text-center">
@@ -49,7 +49,9 @@ const ContactForm = () => {
             className="relative w-full overflow-hidden"
             style={{ 
               minWidth: '320px',
-              height: '700px'
+              height: '700px',
+              border: '1px solid #E5E7EB',
+              borderRadius: '8px'
             }}
           />
         </div>

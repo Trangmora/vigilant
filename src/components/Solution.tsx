@@ -4,22 +4,22 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    icon: <Shield className="w-8 h-8 text-[#F59E0B]" />,
+    icon: <Shield className="w-8 h-8 text-[rgba(242,181,45,255)]" />,
     title: "90% Copertura Rischi",
     description: "Protezione completa per la tua azienda e i tuoi dipendenti"
   },
   {
-    icon: <Activity className="w-8 h-8 text-[#F59E0B]" />,
+    icon: <Activity className="w-8 h-8 text-[rgba(242,181,45,255)]" />,
     title: "Monitoraggio Real-time",
     description: "Controllo costante dei parametri di sicurezza"
   },
   {
-    icon: <Bell className="w-8 h-8 text-[#F59E0B]" />,
+    icon: <Bell className="w-8 h-8 text-[rgba(242,181,45,255)]" />,
     title: "Prevenzione Proattiva",
     description: "Identificazione anticipata dei potenziali rischi"
   },
   {
-    icon: <ArrowUp className="w-8 h-8 text-[#F59E0B]" />,
+    icon: <ArrowUp className="w-8 h-8 text-[rgba(242,181,45,255)]" />,
     title: "Prevenzione attiva",
     description: "Risposta immediata in caso di incidenti"
   }
@@ -35,7 +35,7 @@ const Solution = () => {
     <section className="py-16 bg-white" id="soluzione">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-6 text-[#1a365d]">
+          <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-6 text-[rgba(0,0,46,255)]">
             La Soluzione EasySafe
           </h2>
           <p className="text-xl text-gray-600">
@@ -53,7 +53,7 @@ const Solution = () => {
                 <div className="mb-6">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-[#1a365d]">
+                <h3 className="text-xl font-bold mb-3 text-[rgba(0,0,46,255)]">
                   {feature.title}
                 </h3>
                 <p className="text-gray-600">
@@ -67,7 +67,7 @@ const Solution = () => {
         <div className="bg-[#f8f9fa] rounded-xl p-8 mb-16 transform hover:scale-105 transition-all duration-300 shadow-lg">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left space-y-6">
-              <h3 className="text-3xl font-bold text-[#0EA5E9]">
+              <h3 className="text-3xl font-bold text-[rgba(0,0,46,255)]">
                 Facile, sicuro e accessibile
               </h3>
               <p className="text-gray-600 text-lg">
@@ -76,7 +76,7 @@ const Solution = () => {
             </div>
             <div className="flex justify-center">
               <div className="relative">
-                <div className="absolute inset-0 bg-[#0EA5E9]/20 rounded-full blur-xl"></div>
+                <div className="absolute inset-0 bg-[rgba(0,0,46,0.2)] rounded-full blur-xl"></div>
                 <img 
                   src="/lovable-uploads/b6d05c89-3cc0-417f-a40c-dc727159c26a.png" 
                   alt="EasySafe Smartwatch" 
@@ -89,7 +89,7 @@ const Solution = () => {
 
         <div className="text-center">
           <Button 
-            className="bg-[#F59E0B] text-white px-8 py-6 text-lg md:text-xl rounded-full font-semibold hover:bg-[#F59E0B]/90 transition-colors"
+            className="bg-[rgba(242,181,45,255)] text-white px-8 py-6 text-lg md:text-xl rounded-full font-semibold hover:bg-[rgba(242,181,45,0.9)] transition-colors"
             onClick={scrollToCalendly}
           >
             Scopri tutte le funzionalità
