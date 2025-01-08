@@ -64,7 +64,7 @@ const Solution = () => {
           ))}
         </div>
 
-        <div className="bg-[#f8f9fa] rounded-xl p-8 mb-16 transform hover:scale-105 transition-all duration-300 shadow-lg">
+        <div className="bg-[#0EA5E9]/10 rounded-xl p-8 mb-16 transform hover:scale-105 transition-all duration-300 shadow-lg">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left space-y-6">
               <h3 className="text-3xl font-bold text-[rgba(0,0,46,255)]">

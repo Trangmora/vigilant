@@ -51,7 +51,9 @@ const ContactForm = () => {
               minWidth: '320px',
               height: '700px',
               border: '1px solid #E5E7EB',
-              borderRadius: '8px'
+              borderRadius: '8px',
+              position: 'relative',
+              overflow: 'hidden'
             }}
           />
         </div>

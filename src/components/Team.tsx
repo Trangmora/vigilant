@@ -40,16 +40,16 @@ const Team = () => {
           {teamMembers.map((member, index) => (
             <Card key={index} className="group hover:shadow-lg transition-shadow duration-300 animate-fade-in" style={{animationDelay: `${index * 150}ms`}}>
               <CardContent className="p-6 text-center">
-                <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-[#2ecc71]">
+                <Avatar className="w-32 h-32 mx-auto mb-6 border-4 border-[rgba(242,181,45,255)]">
                   <AvatarImage src={member.image} alt={member.name} />
-                  <AvatarFallback className="bg-[#1a365d] text-white text-xl">
+                  <AvatarFallback className="bg-[rgba(0,0,46,255)] text-white text-xl">
                     {member.initials}
                   </AvatarFallback>
                 </Avatar>
                 <h3 className="font-montserrat font-bold text-xl mb-2">
                   {member.name}
                 </h3>
-                <p className="text-[#2ecc71] font-semibold mb-4">
+                <p className="text-[rgba(242,181,45,255)] font-semibold mb-4">
                   {member.role}
                 </p>
                 <p className="text-gray-600">

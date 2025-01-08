@@ -19,19 +19,19 @@ const Features = () => {
             <TabsList className="grid w-full grid-cols-3 h-auto">
               <TabsTrigger 
                 value="personal" 
-                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px]"
+                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px] max-w-[120px] mx-auto"
               >
                 Sicurezza Personale
               </TabsTrigger>
               <TabsTrigger 
                 value="emergency" 
-                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px]"
+                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px] max-w-[120px] mx-auto"
               >
                 Gestione Emergenze
               </TabsTrigger>
               <TabsTrigger 
                 value="prevention" 
-                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px]"
+                className="px-2 py-2 text-xs md:text-base whitespace-normal h-auto min-h-[48px] max-w-[120px] mx-auto"
               >
                 Prevenzione
               </TabsTrigger>
