@@ -35,20 +35,22 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="py-24 bg-gray-50" id="contatti">
+    <div className="py-24 bg-gray-50 relative" id="contatti">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-3xl font-bold text-[#1a365d] mb-8 text-center">
+          <h2 className="text-3xl font-bold text-[#1a365d] mb-4 text-center">
             Richiedi una Demo
           </h2>
           <p className="text-gray-600 mb-8 text-center">
-            Prenota una demo personalizzata di EasySafe
+            Prenota una videochiamata dimostrativa di EasySafe
           </p>
           <div 
             id="calendly-embed" 
+            className="relative w-full"
             style={{ 
               minWidth: '320px',
-              height: '700px'
+              height: '700px',
+              overflow: 'hidden'
             }}
           />
         </div>

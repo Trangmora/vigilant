@@ -4,22 +4,22 @@ import { Button } from "@/components/ui/button";
 
 const features = [
   {
-    icon: <Shield className="w-8 h-8 text-[#2ecc71]" />,
+    icon: <Shield className="w-8 h-8 text-[#0EA5E9]" />,
     title: "90% Copertura Rischi",
     description: "Protezione completa per la tua azienda e i tuoi dipendenti"
   },
   {
-    icon: <Activity className="w-8 h-8 text-[#2ecc71]" />,
+    icon: <Activity className="w-8 h-8 text-[#0EA5E9]" />,
     title: "Monitoraggio Real-time",
     description: "Controllo costante dei parametri di sicurezza"
   },
   {
-    icon: <Bell className="w-8 h-8 text-[#2ecc71]" />,
+    icon: <Bell className="w-8 h-8 text-[#0EA5E9]" />,
     title: "Prevenzione Proattiva",
     description: "Identificazione anticipata dei potenziali rischi"
   },
   {
-    icon: <ArrowUp className="w-8 h-8 text-[#2ecc71]" />,
+    icon: <ArrowUp className="w-8 h-8 text-[#0EA5E9]" />,
     title: "Prevenzione attiva",
     description: "Risposta immediata in caso di incidenti"
   }
@@ -64,29 +64,32 @@ const Solution = () => {
           ))}
         </div>
 
-        <div className="bg-[#f3f3f3] rounded-xl p-8 mb-16">
+        <div className="bg-[#f8f9fa] rounded-xl p-8 mb-16 transform hover:scale-105 transition-all duration-300 shadow-lg">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="text-center md:text-left space-y-6">
-              <h3 className="text-2xl font-bold text-[#1a365d]">
+              <h3 className="text-3xl font-bold text-[#1a365d] bg-gradient-to-r from-[#0EA5E9] to-[#F59E0B] bg-clip-text text-transparent">
                 Facile, sicuro e accessibile
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-lg">
                 Protegge, previene e gestisce rapidamente l'emergenza. È l'80% più efficace del dispositivo uomo a terra
               </p>
             </div>
             <div className="flex justify-center">
-              <img 
-                src="/lovable-uploads/b6d05c89-3cc0-417f-a40c-dc727159c26a.png" 
-                alt="EasySafe Smartwatch" 
-                className="max-w-[300px] animate-fade-in"
-              />
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-[#0EA5E9]/20 to-[#F59E0B]/20 rounded-full blur-xl"></div>
+                <img 
+                  src="/lovable-uploads/b6d05c89-3cc0-417f-a40c-dc727159c26a.png" 
+                  alt="EasySafe Smartwatch" 
+                  className="relative z-10 max-w-[300px] animate-fade-in hover:rotate-12 transition-transform duration-300"
+                />
+              </div>
             </div>
           </div>
         </div>
 
         <div className="text-center">
           <Button 
-            className="bg-[#2ecc71] text-white px-16 py-8 text-xl rounded-full font-semibold hover:bg-[#2ecc71]/90 transition-colors text-2xl"
+            className="bg-[#0EA5E9] text-white px-8 py-6 text-lg md:text-xl rounded-full font-semibold hover:bg-[#0EA5E9]/90 transition-colors"
             onClick={scrollToCalendly}
           >
             Scopri tutte le funzionalità

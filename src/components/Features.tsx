@@ -16,10 +16,10 @@ const Features = () => {
 
         <div className="max-w-5xl mx-auto">
           <Tabs defaultValue="personal" className="w-full">
-            <TabsList className="grid w-full grid-cols-1 md:grid-cols-3">
-              <TabsTrigger value="personal">Sicurezza Personale</TabsTrigger>
-              <TabsTrigger value="emergency">Gestione Emergenze</TabsTrigger>
-              <TabsTrigger value="prevention">Prevenzione</TabsTrigger>
+            <TabsList className="grid w-full grid-cols-3 h-auto">
+              <TabsTrigger value="personal" className="px-2 py-3 text-sm md:text-base">Sicurezza Personale</TabsTrigger>
+              <TabsTrigger value="emergency" className="px-2 py-3 text-sm md:text-base">Gestione Emergenze</TabsTrigger>
+              <TabsTrigger value="prevention" className="px-2 py-3 text-sm md:text-base">Prevenzione</TabsTrigger>
             </TabsList>
             
             <TabsContent value="personal" className="mt-8">
