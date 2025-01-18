@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold font-montserrat">EasySafe</h3>
+            <h3 className="text-xl font-bold font-montserrat">Vigilant</h3>
             <p className="text-gray-300">
               Innovazione nella sicurezza sul lavoro
             </p>
@@ -51,13 +51,13 @@ const Footer = () => {
               <li>MPCT</li>
               <li>Via Zanetti 1</li>
               <li>34133 Trieste (TS)</li>
-              <li>Email: info@easysafe.it</li>
+              <li>Email: info@vigilantpro.it</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} EasySafe. Tutti i diritti riservati.</p>
+          <p>&copy; {new Date().getFullYear()} Vigilant. Tutti i diritti riservati.</p>
         </div>
       </div>
     </footer>

@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10 pt-16">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h1 className="text-3xl md:text-6xl font-bold font-montserrat animate-fade-in">
-            EasySafe: lavorare in sicurezza è facile
+            Vigilant: lavorare in sicurezza è facile
           </h1>
           
           <p className="text-lg md:text-2xl text-gray-200 animate-fade-in delay-200">

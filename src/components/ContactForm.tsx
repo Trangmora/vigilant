@@ -42,7 +42,7 @@ const ContactForm = () => {
             Richiedi una Demo
           </h2>
           <p className="text-gray-600 mb-8 text-center">
-            Prenota una videochiamata dimostrativa di EasySafe
+            Prenota una videochiamata dimostrativa di Vigilant
           </p>
           <div 
             id="calendly-embed" 

@@ -23,7 +23,7 @@ const Navbar = () => {
             className="text-2xl font-bold text-[#1a365d] cursor-pointer" 
             onClick={() => scrollToSection('home')}
           >
-            EasySafe
+            Vigilant
           </span>
         </div>
 
