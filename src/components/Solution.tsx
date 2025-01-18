@@ -36,7 +36,7 @@ const Solution = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-montserrat mb-6 text-[rgba(0,0,46,255)]">
-            La Soluzione EasySafe
+            La Soluzione Vigilant
           </h2>
           <p className="text-xl text-gray-600">
             Tecnologia all'avanguardia per la sicurezza sul lavoro
