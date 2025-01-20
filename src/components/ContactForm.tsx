@@ -9,14 +9,22 @@ declare global {
 
 const ContactForm = () => {
   useEffect(() => {
-    if (window.Calendly) {
-      window.Calendly.initInlineWidget({
-        url: 'https://calendly.com/federico-lonza/easysafe',
-        parentElement: document.getElementById('calendly-embed'),
-        prefill: {},
-        utm: {}
-      });
-    }
+    // Create a script element
+    const script = document.createElement('script');
+    script.src = 'https://assets.calendly.com/assets/external/widget.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    script.onload = () => {
+      if (window.Calendly) {
+        window.Calendly.initInlineWidget({
+          url: 'https://calendly.com/federico-lonza/easysafe',
+          parentElement: document.getElementById('calendly-embed'),
+          prefill: {},
+          utm: {}
+        });
+      }
+    };
 
     const handleCalendlyEvent = (e: any) => {
       if (e.data.event === 'calendly.event_scheduled') {
@@ -31,6 +39,8 @@ const ContactForm = () => {
 
     return () => {
       window.removeEventListener('message', handleCalendlyEvent);
+      // Clean up the script when component unmounts
+      document.body.removeChild(script);
     };
   }, []);
 
