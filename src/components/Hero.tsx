@@ -15,8 +15,6 @@ const Hero = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
-        role="img"
-        aria-label="Sfondo rappresentante la sicurezza sul lavoro"
       >
         <div className="absolute inset-0 bg-[rgba(0,0,46,0.85)] backdrop-blur-sm"></div>
       </div>
@@ -24,12 +22,12 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10 pt-16">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h1 className="text-3xl md:text-6xl font-bold font-montserrat animate-fade-in">
-            Soluzioni Wearable Avanzate
+            Vigilant: lavorare in sicurezza è facile
           </h1>
           
-          <h2 className="text-lg md:text-2xl text-gray-200 animate-fade-in delay-200">
-            Tecnologia per la Sicurezza sul Lavoro
-          </h2>
+          <p className="text-lg md:text-2xl text-gray-200 animate-fade-in delay-200">
+            La prima soluzione efficace a 360 gradi per la sicurezza sul lavoro
+          </p>
           
           <div className="space-y-4 animate-fade-in delay-300">
             <Button 
