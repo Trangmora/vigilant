@@ -1,4 +1,109 @@
 export const blogPosts: Record<string, { title: string; content: string; excerpt: string }> = {
+  "sicurezza-lavoro-2024-evitare-sanzioni-proteggere-dipendenti": {
+    title: "Sicurezza sul Lavoro 2024: Come Evitare Sanzioni e Proteggere i Dipendenti",
+    excerpt: "Scopri come adeguarti al D.Lgs 81/2008 con tecnologie proattive per ridurre rischi e sanzioni. Richiedi una demo gratuita di Vigilant.",
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
+          <p>Il 2024 si prospetta come un anno cruciale per la sicurezza sul lavoro. Con l'inasprirsi dei controlli e l'evoluzione delle normative, le aziende sono chiamate a investire in soluzioni innovative per garantire la protezione dei propri dipendenti e assicurarsi la conformità al D.Lgs 81/2008. In questo articolo analizzeremo l'importanza di una gestione proattiva della sicurezza, illustrando come il sistema Vigilant, grazie al monitoraggio in tempo reale e alle tecnologie predittive, possa aiutare a evitare sanzioni e blocchi delle attività, trasformando la sicurezza in un investimento strategico.</p>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Perché il 2024 è l'anno cruciale per la sicurezza sul lavoro?</h2>
+          <p class="mb-4">L'evoluzione normativa e l'incremento dei controlli rappresentano una sfida per tutte le aziende, soprattutto per quelle operanti in settori ad alto rischio. Ecco alcuni motivi per cui il 2024 è un anno decisivo:</p>
+          
+          <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
+            <ul class="list-disc pl-6 space-y-4">
+              <li><strong>Aggiornamenti Normativi:</strong> Con il D.Lgs 81/2008 e le successive integrazioni, le normative richiedono procedure sempre più rigorose e aggiornate. La non conformità può tradursi in sanzioni economiche e, in casi estremi, in la chiusura temporanea o definitiva dell'azienda.</li>
+              <li><strong>Aumento delle Ispezioni:</strong> Le autorità competenti intensificano i controlli per verificare il rispetto delle norme di sicurezza. Un'ispezione negativa non solo comporta sanzioni, ma può avere un impatto devastante sulla reputazione aziendale.</li>
+              <li><strong>Pressione del Mercato:</strong> In un contesto competitivo, la capacità di garantire un ambiente di lavoro sicuro diventa un elemento di differenziazione. Le aziende che investono in sicurezza trasmettono fiducia a clienti, partner e dipendenti.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Cosa rischi se ignori il D.Lgs 81/2008?</h2>
+          <div class="bg-[rgba(0,0,46,0.05)] p-6 rounded-lg mb-6">
+            <ul class="list-disc pl-6 space-y-4">
+              <li><strong>Blocco delle Attività:</strong> Un'azienda non conforme rischia ispezioni negative che possono portare al fermo temporaneo o permanente dell'attività lavorativa, con conseguenti perdite economiche.</li>
+              <li><strong>Sanzioni Penali ed Economiche:</strong> Le violazioni possono essere sanzionate con multe salate e, in casi estremi, con responsabilità penali per i dirigenti.</li>
+              <li><strong>Danni Reputazionali:</strong> Una cattiva gestione della sicurezza può compromettere l'immagine dell'azienda, causando la perdita di fiducia da parte di clienti e partner, con effetti a lungo termine sul business.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Come funziona il monitoraggio real-time di Vigilant per la prevenzione</h2>
+          <p class="mb-4">Il cuore della piattaforma Vigilant è il monitoraggio in tempo reale, una tecnologia che consente di rilevare ogni anomalia non appena si verifica, garantendo interventi tempestivi. Ecco come:</p>
+          
+          <div class="grid md:grid-cols-2 gap-6 mb-6">
+            <div class="bg-[#F1F0FB] p-6 rounded-lg">
+              <h3 class="font-bold mb-3">Sensori Avanzati e Dispositivi Indossabili</h3>
+              <p>La soluzione prevede l'utilizzo di dispositivi come il Vigilant Smartwatch, in grado di monitorare costantemente i parametri vitali e le condizioni ambientali. Questi dispositivi sono dotati di sensori di ultima generazione che inviano dati in tempo reale alla piattaforma.</p>
+            </div>
+            <div class="bg-[#F1F0FB] p-6 rounded-lg">
+              <h3 class="font-bold mb-3">Analisi Predittiva</h3>
+              <p>Grazie a sofisticati algoritmi, Vigilant analizza i dati raccolti per identificare pattern a rischio e prevedere potenziali incidenti prima che si verifichino.</p>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-[#F1F0FB] p-6 rounded-lg">
+              <h3 class="font-bold mb-3">Notifiche Istantanee</h3>
+              <p>In caso di anomalie, il sistema invia notifiche immediate al personale di sicurezza, consentendo un intervento rapido ed efficace.</p>
+            </div>
+            <div class="bg-[#F1F0FB] p-6 rounded-lg">
+              <h3 class="font-bold mb-3">Integrazione con i Sistemi Aziendali</h3>
+              <p>La piattaforma è progettata per integrarsi facilmente con le infrastrutture IT esistenti, offrendo una visione completa e centralizzata dello stato di sicurezza dell'azienda.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Domande frequenti</h2>
+          <div class="space-y-6">
+            <div class="bg-[#F1F0FB] p-6 rounded-lg">
+              <h3 class="font-bold mb-2">Come posso evitare ispezioni negative?</h3>
+              <p>Adottando un sistema di monitoraggio in tempo reale come Vigilant, è possibile prevenire incidenti e gestire proattivamente ogni potenziale rischio, riducendo drasticamente il numero di ispezioni negative.</p>
+            </div>
+            <div class="bg-[#F1F0FB] p-6 rounded-lg">
+              <h3 class="font-bold mb-2">Il sistema è compatibile con la mia infrastruttura?</h3>
+              <p>Sì, Vigilant è stato progettato per integrarsi con sistemi esistenti, offrendo soluzioni personalizzabili in base alle esigenze specifiche della tua azienda.</p>
+            </div>
+            <div class="bg-[#F1F0FB] p-6 rounded-lg">
+              <h3 class="font-bold mb-2">Quanto tempo ci vuole per implementare il sistema?</h3>
+              <p>L'implementazione è rapida e il team di supporto di Vigilant offre formazione e assistenza continua per garantire una transizione senza intoppi.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Testimonianze e Vantaggi</h2>
+          <p class="mb-4">Adottare Vigilant non significa solo conformarsi alle normative, ma anche migliorare l'efficienza operativa e ridurre i costi a lungo termine. Le aziende che investono in sistemi di sicurezza innovativi registrano:</p>
+          
+          <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
+            <ul class="list-disc pl-6 space-y-4">
+              <li><strong>Una riduzione significativa degli incidenti:</strong> Grazie all'intervento tempestivo e alla prevenzione proattiva, è possibile ridurre il numero di incidenti sul lavoro.</li>
+              <li><strong>Risparmi economici:</strong> Evitare interruzioni operative e sanzioni contribuisce a un notevole risparmio sui costi aziendali.</li>
+              <li><strong>Un ambiente di lavoro più sereno:</strong> I dipendenti si sentono più sicuri e protetti, migliorando la produttività e la soddisfazione lavorativa.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
+          <p>Il 2024 rappresenta un anno di sfide ma anche di opportunità per le aziende che decidono di investire in sicurezza. Con Vigilant, puoi essere sicuro di avere uno strumento potente e innovativo in grado di garantire la conformità al D.Lgs 81/2008, ridurre i rischi e proteggere il tuo team. Non lasciare che la negligenza metta a rischio il futuro della tua azienda.</p>
+        </section>
+
+        <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
+          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
+          <p class="mb-6">Prenota una consulenza gratuita per valutare il livello di conformità della tua azienda e scoprire come Vigilant può aiutarti a evitare sanzioni e garantire un ambiente di lavoro sicuro.</p>
+          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
+        </div>
+      </article>
+    `
+  },
   "importanza-sicurezza-lavoro-era-digitale": {
     title: "L'importanza della sicurezza sul lavoro nell'era digitale: come Vigilant trasforma la prevenzione",
     excerpt: "Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale...",
@@ -12,43 +117,35 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il contesto attuale della sicurezza sul lavoro</h2>
           <p>Negli ultimi anni, numerose aziende hanno vissuto esperienze drammatiche a causa di incidenti sul lavoro, con conseguenze economiche, legali e reputazionali. Le normative, come il D.Lgs 81/2008 in Italia, impongono standard rigorosi, ma spesso gli strumenti tradizionali non sono sufficienti a garantire la sicurezza in ambienti complessi.</p>
-          
-          <ul class="list-disc pl-6 mt-4 mb-6">
-            <li>Il rischio di incidenti e le conseguenze: blocchi delle attività, sanzioni e perdita di fiducia dei clienti.</li>
-            <li>La necessità di soluzioni innovative: le tecnologie digitali offrono nuovi strumenti per il monitoraggio costante e la prevenzione attiva dei rischi.</li>
-          </ul>
         </section>
 
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">La rivoluzione digitale nella sicurezza sul lavoro</h2>
           <p>L'integrazione di tecnologie avanzate nel monitoraggio della sicurezza sul lavoro ha aperto la strada a soluzioni che vanno ben oltre il controllo manuale e periodico.</p>
-          
-          <ul class="list-disc pl-6 mt-4 mb-6">
-            <li>Monitoraggio in tempo reale: grazie a sensori e dispositivi intelligenti, è possibile avere una visione costante dello stato di salute dei dipendenti e delle condizioni ambientali.</li>
-            <li>Analisi predittiva: l'uso di algoritmi e intelligenza artificiale permette di identificare potenziali rischi prima che diventino critici.</li>
-          </ul>
         </section>
 
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Come Vigilant sta trasformando la sicurezza</h2>
           <p>La piattaforma Vigilant offre una soluzione completa, con un approccio integrato che unisce hardware e software per garantire:</p>
-          
-          <ul class="list-disc pl-6 mt-4 mb-6">
+        </section>
+
+        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
+          <ul class="list-disc pl-6">
             <li>Protezione Completa: copertura del 90% dei rischi aziendali, integrando dispositivi come l'EasySafe Smartwatch.</li>
             <li>Monitoraggio Costante: sistemi di rilevazione in tempo reale per prevenire incidenti e attivare immediatamente le procedure di emergenza.</li>
             <li>Prevenzione Attiva: interventi proattivi che, in media, riducono gli incidenti del 75% nel primo anno di utilizzo.</li>
           </ul>
-        </section>
-
-        <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
-          <p class="mb-6">Non attendere che un incidente metta a rischio la tua azienda!</p>
-          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
         </div>
 
         <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Non aspettare che sia troppo tardi</h2>
+          <p>Non attendere che un incidente metta a rischio la tua azienda!</p>
+          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
+        </section>
+
+        <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
-          <p>La sicurezza sul lavoro non è mai stata così importante e, con strumenti digitali come Vigilant, puoi garantire un ambiente di lavoro sicuro e protetto. Investire nella prevenzione significa proteggere il tuo team, evitare sanzioni e rafforzare la reputazione della tua azienda. Scopri oggi come la tecnologia può fare la differenza e rendere il lavoro un'esperienza sicura e produttiva.</p>
+          <p>La sicurezza sul lavoro non è mai stata così importante e, con strumenti digitali come Vigilant, puoi garantire un ambiente di lavoro sicuro e protetto. Investire nella prevenzione significa proteggere il tuo team, evitare sanzioni e rafforzare la reputazione della tua azienda.</p>
         </section>
       </article>
     `
@@ -66,23 +163,20 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">La trasformazione digitale della sicurezza</h2>
           <p>I metodi tradizionali non garantiscono più la rapidità di intervento richiesta in situazioni critiche.</p>
-          
-          <ul class="list-disc pl-6 mt-4 mb-6">
-            <li>Limiti dei controlli manuali: Ispezioni periodiche che non intercettano sempre i rischi in tempo reale.</li>
-            <li>Risposta tecnologica: Utilizzo di dispositivi intelligenti e sistemi di monitoraggio continuo per una visione completa della sicurezza.</li>
-          </ul>
         </section>
 
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Vigilant: una soluzione completa</h2>
           <p>La piattaforma si distingue per il suo approccio integrato:</p>
-          
-          <ul class="list-disc pl-6 mt-4 mb-6">
+        </section>
+
+        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
+          <ul class="list-disc pl-6">
             <li>Protezione Completa: Copre il 90% dei rischi aziendali grazie all'integrazione di hardware e software.</li>
             <li>Monitoraggio Costante: Il Vigilant Smartwatch e altri dispositivi garantiscono un controllo continuo dei parametri vitali.</li>
             <li>Prevenzione Attiva: Algoritmi predittivi attivano interventi immediati per evitare situazioni critiche.</li>
           </ul>
-        </section>
+        </div>
 
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Funzionalità innovative di Vigilant</h2>
@@ -100,7 +194,7 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
 
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Vantaggi per le aziende</h2>
-          <ul class="list-disc pl-6 mt-4 mb-6">
+          <ul class="list-disc pl-6 mb-6">
             <li>Riduzione dei costi: Evitare incidenti significa meno interruzioni operative e spese legali.</li>
             <li>Miglioramento della produttività: Un ambiente sicuro favorisce l'efficienza dei dipendenti.</li>
             <li>Conformità normativa: Adeguarsi alle normative diventa più semplice e veloce.</li>
@@ -125,11 +219,11 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
           </div>
         </section>
 
-        <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
-          <p class="mb-6">Non attendere che un incidente metta a rischio la tua azienda!</p>
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Non aspettare che sia troppo tardi</h2>
+          <p>Non attendere che un incidente metta a rischio la tua azienda!</p>
           <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
-        </div>
+        </section>
 
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
@@ -200,11 +294,11 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
           </div>
         </section>
 
-        <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
-          <p class="mb-6">Non lasciare che un imprevisto comprometta la sicurezza della tua azienda.</p>
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Non aspettare che sia troppo tardi</h2>
+          <p>Non lasciare che un imprevisto comprometta la sicurezza della tua azienda.</p>
           <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
-        </div>
+        </section>
 
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
@@ -266,15 +360,120 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
           </div>
         </section>
 
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Non aspettare che sia troppo tardi</h2>
+          <p>Proteggi la tua azienda e i tuoi dipendenti con una soluzione che ha già dimostrato la sua efficacia sul campo.</p>
+          <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
+          <p>Le esperienze di aziende come Quarry Srl, TechnoLogistics SpA e Industrial Solutions dimostrano che la prevenzione attiva e il monitoraggio costante possono fare la differenza. Con Vigilant, la sicurezza non è solo un obbligo normativo, ma una strategia vincente per proteggere le persone e il business. Scegli la tecnologia che salva vite e reputazioni.</p>
+        </section>
+      </article>
+    `
+  },
+  "futuro-sicurezza-lavoro-digitale-innovazioni-vigilant": {
+    title: "Il Futuro Digitale della Sicurezza",
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
+          <p>Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale. Con l'avvento delle tecnologie digitali, è diventato possibile monitorare e prevenire i rischi in tempo reale.</p>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il contesto attuale della sicurezza sul lavoro</h2>
+          <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
+            <p>Negli ultimi anni, numerose aziende hanno vissuto esperienze drammatiche a causa di incidenti sul lavoro, con conseguenze economiche, legali e reputazionali. Le normative, come il D.Lgs 81/2008 in Italia, impongono standard rigorosi, ma spesso gli strumenti tradizionali non sono sufficienti a garantire la sicurezza in ambienti complessi.</p>
+          </div>
+          <ul class="list-disc pl-6 mb-6">
+            <li>Il rischio di incidenti e le conseguenze: blocchi delle attività, sanzioni e perdita di fiducia dei clienti.</li>
+            <li>La necessità di soluzioni innovative: le tecnologie digitali offrono nuovi strumenti per il monitoraggio costante e la prevenzione attiva dei rischi.</li>
+          </ul>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">La rivoluzione digitale nella sicurezza sul lavoro</h2>
+          <p>L'integrazione di tecnologie avanzate nel monitoraggio della sicurezza sul lavoro ha aperto la strada a soluzioni che vanno ben oltre il controllo manuale e periodico.</p>
+          <div class="bg-[#F1F0FB] p-6 rounded-lg my-6">
+            <ul class="list-disc pl-6">
+              <li>Monitoraggio in tempo reale: grazie a sensori e dispositivi intelligenti</li>
+              <li>Analisi predittiva: l'uso di algoritmi e intelligenza artificiale</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Come Vigilant sta trasformando la sicurezza</h2>
+          <p>La piattaforma Vigilant offre una soluzione completa, con un approccio integrato che unisce hardware e software per garantire:</p>
+          <div class="bg-[#F1F0FB] p-6 rounded-lg my-6">
+            <ul class="list-disc pl-6">
+              <li>Protezione Completa: copertura del 90% dei rischi aziendali</li>
+              <li>Monitoraggio Costante: sistemi di rilevazione in tempo reale</li>
+              <li>Prevenzione Attiva: interventi proattivi che riducono gli incidenti del 75%</li>
+            </ul>
+          </div>
+        </section>
+
         <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
-          <p class="mb-6">Se la sicurezza della tua azienda è una priorità, scopri come possiamo aiutarti!</p>
-          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
+          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Pronto a proteggere la tua azienda?</h3>
+          <p class="mb-6">Non aspettare che sia troppo tardi. Scopri come Vigilant può aiutarti a creare un ambiente di lavoro più sicuro.</p>
+          <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
         </div>
 
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
-          <p>L’esperienza diretta nella prevenzione e nel monitoraggio è la prova che una strategia integrata di sicurezza fa la differenza. Investi in Vigilant per proteggere il tuo team e garantire continuità operativa, trasformando la sicurezza in un valore aggiunto per la tua azienda.</p>
+          <p>La sicurezza sul lavoro non è mai stata così importante e, con strumenti digitali come Vigilant, puoi garantire un ambiente di lavoro sicuro e protetto. Investi nella prevenzione significa proteggere il tuo team, evitare sanzioni e rafforzare la reputazione della tua azienda.</p>
+        </section>
+      </article>
+    `
+  },
+  "come-scegliere-software-sicurezza-ideale": {
+    title: "Come Scegliere il Software di Sicurezza Ideale",
+    excerpt: "Una guida pratica per scegliere il software di sicurezza perfetto per la tua azienda...",
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
+          <p>La scelta del software di sicurezza giusto è fondamentale per garantire un ambiente di lavoro sicuro e conforme alle normative. In questo articolo, esploreremo i criteri essenziali da considerare nella selezione del software di sicurezza ideale per la tua azienda.</p>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Criteri di selezione</h2>
+          <ul class="list-disc pl-6 mb-6">
+            <li>Compatibilità con le infrastrutture esistenti: Assicurati che il software possa integrarsi facilmente con i sistemi già in uso nella tua azienda.</li>
+            <li>Facilità d'uso: Un'interfaccia intuitiva è fondamentale per garantire che il personale possa utilizzare il software senza difficoltà.</li>
+            <li>Supporto e formazione: Verifica che il fornitore offra supporto tecnico e formazione per garantire un utilizzo ottimale del software.</li>
+            <li>Funzionalità avanzate: Cerca un software che offra funzionalità come monitoraggio in tempo reale, analisi predittiva e reportistica dettagliata.</li>
+          </ul>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
+          <p>Investire nel software di sicurezza giusto è un passo fondamentale per garantire la sicurezza dei tuoi dipendenti e la conformità alle normative. Con Vigilant, puoi contare su una soluzione completa e innovativa per proteggere la tua azienda.</p>
+        </section>
+      </article>
+    `
+  },
+  "sicurezza-e-benessere-un-binomio-vincente": {
+    title: "Sicurezza e Benessere: Un Binomio Vincente",
+    excerpt: "Scopri come la sicurezza sul lavoro può trasformarsi in un potente strumento per il benessere aziendale e il successo...",
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
+          <p>La sicurezza sul lavoro non è solo un obbligo normativo, ma un elemento chiave per il benessere dei dipendenti e il successo dell'azienda. In questo articolo, esploreremo come una gestione efficace della sicurezza possa contribuire a creare un ambiente di lavoro positivo e produttivo.</p>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il legame tra sicurezza e benessere</h2>
+          <p>Investire nella sicurezza significa anche investire nel benessere dei dipendenti. Un ambiente di lavoro sicuro riduce lo stress e aumenta la soddisfazione lavorativa, portando a una maggiore produttività e a una riduzione del turnover.</p>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
+          <p>La sicurezza e il benessere sono due facce della stessa medaglia. Investire in sicurezza significa investire nel futuro della tua azienda e nel benessere dei tuoi dipendenti. Con Vigilant, puoi garantire un ambiente di lavoro sicuro e positivo.</p>
         </section>
       </article>
     `
