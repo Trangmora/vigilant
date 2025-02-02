@@ -288,7 +288,7 @@ const BlogPost = () => {
   };
 
   const processedContent = post.content.replace(
-    /<Link to="\\/#contatti"([^>]*)>/g,
+    /<Link to="\/#contatti"([^>]*)>/g,
     '<button onclick="window.location.href=\'/#contatti\'" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">'
   ).replace(
     /<\/Link>/g,
