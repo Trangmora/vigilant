@@ -18,8 +18,11 @@ const addCommonCTA = (content: string) => {
     </div>
   `;
 
+  // Remove any existing CTA boxes before adding the final one
+  const contentWithoutCTAs = content.replace(/<div class="bg-\[rgba\(0,0,46,0\.05\)\].*?<\/div>\s*<\/div>/gs, '');
+  
   // Add CTA before the closing </article> tag
-  return content.replace('</article>', `${ctaHtml}</article>`);
+  return contentWithoutCTAs.replace('</article>', `${ctaHtml}</article>`);
 };
 
 // Update the blogPosts object with all articles
