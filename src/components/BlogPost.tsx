@@ -262,7 +262,80 @@ const blogPosts = {
       </article>
     `,
   },
-  // Additional articles would follow the same structure...
+
+  "monitoraggio-costante-sicurezza-essenziale-2025-implementare": {
+    title: "Monitoraggio in Tempo Reale: Il Futuro è Qui",
+    metaDescription: "Il monitoraggio real-time sta trasformando la sicurezza sul lavoro. Scopri perché è diventato indispensabile nel 2025.",
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <h1 class="text-4xl font-bold text-[rgba(0,0,46,255)] mb-8">Monitoraggio in Tempo Reale: Il Futuro della Sicurezza sul Lavoro</h1>
+        
+        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-8">
+          <p class="font-bold mb-2">In questo articolo scoprirai:</p>
+          <ul>
+            <li>✓ L'importanza del monitoraggio in tempo reale</li>
+            <li>✓ Le tecnologie più innovative del settore</li>
+            <li>✓ Come implementare un sistema efficace</li>
+            <li>✓ I benefici tangibili per la tua azienda</li>
+          </ul>
+        </div>
+
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">L'Era del Monitoraggio Real-Time</h2>
+        <p>Nel 2025, il monitoraggio in tempo reale è diventato uno standard imprescindibile per la sicurezza sul lavoro...</p>
+
+        <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12 mb-8">
+          <h3 class="text-2xl font-bold mb-4">Scopri Vigilant</h3>
+          <p class="mb-6">La soluzione di monitoraggio più avanzata sul mercato:</p>
+          <ul class="mb-6 space-y-2">
+            <li>✓ Dashboard in tempo reale</li>
+            <li>✓ Analisi predittiva dei rischi</li>
+            <li>✓ Integrazione IoT completa</li>
+            <li>✓ Supporto 24/7</li>
+          </ul>
+          <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
+            Richiedi una Demo
+          </a>
+        </div>
+      </article>
+    `,
+  },
+  "prevenzione-attiva-infortuni-oltre-reazione-approccio-proattivo": {
+    title: "Prevenire è Meglio che Curare: La Nuova Era della Sicurezza",
+    metaDescription: "Un approccio proattivo alla sicurezza non è più un'opzione: è una necessità per il successo aziendale.",
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <h1 class="text-4xl font-bold text-[rgba(0,0,46,255)] mb-8">Prevenzione Attiva: Il Futuro della Sicurezza sul Lavoro</h1>
+        
+        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-8">
+          <p class="font-bold mb-2">In questo articolo scoprirai:</p>
+          <ul>
+            <li>✓ I vantaggi dell'approccio proattivo</li>
+            <li>✓ Strategie di prevenzione efficaci</li>
+            <li>✓ Strumenti e tecnologie preventive</li>
+            <li>✓ Case studies di successo</li>
+          </ul>
+        </div>
+
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Oltre la Reazione: L'Approccio Proattivo</h2>
+        <p>La prevenzione attiva rappresenta un cambio di paradigma fondamentale nella sicurezza sul lavoro...</p>
+
+        <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12 mb-8">
+          <h3 class="text-2xl font-bold mb-4">Scopri Vigilant</h3>
+          <p class="mb-6">Il sistema di prevenzione più avanzato sul mercato:</p>
+          <ul class="mb-6 space-y-2">
+            <li>✓ Analisi predittiva dei rischi</li>
+            <li>✓ Monitoraggio continuo</li>
+            <li>✓ Interventi preventivi</li>
+            <li>✓ Formazione personalizzata</li>
+          </ul>
+          <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
+            Richiedi una Demo
+          </a>
+        </div>
+      </article>
+    `,
+  },
+  // Add remaining articles with similar structure...
 };
 
 const BlogPost = () => {
@@ -284,10 +357,10 @@ const BlogPost = () => {
   }
 
   const processedContent = post.content.replace(
-    /<Link to="\/#contatti"([^>]*)>/g,
-    '<button onclick="window.location.href=\'/#contatti\'" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">'
+    /<a href="#contatti"([^>]*)>/g,
+    '<button onclick="document.getElementById(\'contatti\').scrollIntoView({behavior: \'smooth\'})" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">'
   ).replace(
-    /<\/Link>/g,
+    /<\/a>/g,
     '</button>'
   );
 
