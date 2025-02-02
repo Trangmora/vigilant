@@ -17,7 +17,6 @@ export const preventionArticles = {
         </div>
 
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">L'Impatto Finanziario degli Incidenti sul Lavoro</h2>
-        
         <p>Gli incidenti sul lavoro comportano costi significativi che spesso vanno ben oltre le spese immediate e visibili. Un'analisi approfondita rivela l'ampio spettro di impatti finanziari che possono compromettere la sostenibilità aziendale.</p>
 
         <h3 class="text-2xl font-bold mb-4">Costi Diretti</h3>
@@ -37,11 +36,9 @@ export const preventionArticles = {
         </ul>
 
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Il Vero Costo degli Incidenti</h2>
-        
         <p>Studi recenti dimostrano che per ogni euro di costo diretto, un'azienda sostiene mediamente 4-5 euro di costi indiretti. Questo "effetto iceberg" può avere un impatto devastante sulla redditività aziendale.</p>
 
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Prevenzione: Un Investimento Strategico</h2>
-        
         <p>Investire nella prevenzione non è solo un obbligo legale, ma una scelta strategica che può generare significativi ritorni sull'investimento:</p>
         <ul class="list-disc pl-6 mb-6">
           <li><strong>Riduzione dei costi assicurativi</strong></li>
@@ -65,7 +62,6 @@ export const preventionArticles = {
         </div>
 
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Conclusioni</h2>
-        
         <p>La prevenzione degli incidenti sul lavoro è un investimento che genera valore per l'azienda, i dipendenti e gli stakeholder. Con le giuste strategie e strumenti, è possibile creare un ambiente di lavoro più sicuro e produttivo.</p>
 
         <div class="border-t border-gray-200 mt-12 pt-8">
