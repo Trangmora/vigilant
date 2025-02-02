@@ -64,12 +64,6 @@ export const monitoringArticle = {
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
         <p>Il monitoraggio in tempo reale è una tecnologia fondamentale per garantire la sicurezza sul lavoro. Con Vigilant, ogni dato viene controllato costantemente, permettendo di intervenire prima che un problema diventi critico. In ambienti ad alto rischio, questa tecnologia non solo salva vite, ma assicura anche la conformità alle normative più stringenti, offrendo un vantaggio competitivo alle aziende.</p>
       </section>
-
-      <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-        <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Scopri il potere del monitoraggio in tempo reale</h3>
-        <p class="mb-6">Guarda un video dimostrativo del sistema di monitoraggio Vigilant e scopri come il controllo costante può fare la differenza nella sicurezza della tua azienda.</p>
-        <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
-      </div>
     </article>
   `
 };

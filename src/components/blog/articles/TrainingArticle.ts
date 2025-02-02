@@ -65,12 +65,6 @@ export const trainingArticle = {
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
         <p>Il binomio tra formazione e tecnologia è essenziale per creare un ambiente di lavoro sicuro e responsabile. Vigilant dimostra come integrare corsi online, simulazioni interattive e sistemi di monitoraggio in tempo reale possa migliorare significativamente la cultura della sicurezza, riducendo i rischi e aumentando la prontezza in situazioni di emergenza. Investire in formazione digitale significa proteggere il capitale umano e assicurare un ambiente di lavoro all'avanguardia.</p>
       </section>
-
-      <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-        <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Scopri come migliorare la formazione sulla sicurezza</h3>
-        <p class="mb-6">Prenota una chiamata gratuita per conoscere Vigilant e scoprire come può incrementare la sicurezza in azienda in maniera molto facile.</p>
-        <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Prenota una chiamata gratuita</a>
-      </div>
     </article>
   `
 };

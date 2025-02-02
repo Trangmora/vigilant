@@ -65,12 +65,6 @@ export const preventionArticle = {
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
         <p>Anticipare i rischi prima che si manifestino è un vantaggio competitivo fondamentale. Con l'analisi predittiva, Vigilant trasforma la sicurezza in un processo dinamico e preventivo, riducendo notevolmente il rischio di incidenti e garantendo continuità operativa. Investire in una soluzione proattiva significa proteggere il capitale umano e ridurre i costi derivanti da incidenti imprevisti.</p>
       </section>
-
-      <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-        <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Richiedi un report personalizzato</h3>
-        <p class="mb-6">Richiedi un report personalizzato sui rischi specifici del tuo settore e scopri come l'analisi predittiva di Vigilant può rivoluzionare la sicurezza della tua azienda.</p>
-        <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
-      </div>
     </article>
   `
 };
