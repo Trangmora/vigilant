@@ -85,7 +85,7 @@ export const wearableArticle = {
 
       <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
         <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Scopri il potere dei wearable</h3>
-        <p class="mb-6">Scarica la guida gratuita sull'implementazione di dispositivi wearable in azienda e scopri come il Vigilant Smartwatch può fare la differenza nella prevenzione degli incidenti.</p>
+        <p class="mb-6">Prenota una demo gratuita e scopri come il Vigilant Smartwatch può fare la differenza nella prevenzione degli incidenti.</p>
         <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
       </div>
     </article>

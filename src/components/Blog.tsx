@@ -12,60 +12,10 @@ const blogPosts = [
     excerpt: "Scopri come dispositivi intelligenti come lo smartwatch Vigilant prevengono cadute e monitorano parametri vitali. Richiedi una prova.",
   },
   {
-    title: "L'importanza della sicurezza sul lavoro nell'era digitale",
-    slug: "importanza-sicurezza-lavoro-era-digitale",
-    excerpt: "Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale...",
-  },
-  {
-    title: "Innovazione e protezione: il ruolo della tecnologia",
-    slug: "innovazione-protezione-tecnologia-sicurezza",
-    excerpt: "In un'epoca in cui l'innovazione tecnologica è al centro di ogni strategia aziendale, la sicurezza sul lavoro non può rimanere indietro...",
-  },
-  {
-    title: "Prevenzione attiva e monitoraggio costante: la rivoluzione di Vigilant",
-    slug: "prevenzione-attiva-monitoraggio-costante",
-    excerpt: "La prevenzione è la chiave per evitare incidenti sul lavoro e garantire la continuità operativa...",
-  },
-  {
-    title: "EasySafe: Lo Smartwatch che Salva Vite",
-    slug: "smartwatch-sicurezza-lavoro-easysafe-prevenzione-infortuni",
-    excerpt: "Una rivoluzione nella sicurezza sul lavoro: scopri come un semplice dispositivo può prevenire incidenti e salvare vite...",
-  },
-  {
-    title: "Monitoraggio in Tempo Reale: Il Futuro è Qui",
-    slug: "monitoraggio-costante-sicurezza-essenziale-2025-implementare",
-    excerpt: "Il monitoraggio real-time sta trasformando la sicurezza sul lavoro. Scopri perché è diventato indispensabile nel 2025...",
-  },
-  {
-    title: "Prevenire è Meglio che Curare: La Nuova Era della Sicurezza",
-    slug: "prevenzione-attiva-infortuni-oltre-reazione-approccio-proattivo",
-    excerpt: "Un approccio proattivo alla sicurezza non è più un'opzione: è una necessità per il successo aziendale...",
-  },
-  {
-    title: "Sicurezza Accessibile per Tutti",
-    slug: "sicurezza-sul-lavoro-facile-accessibile-vigilant-democratizza",
-    excerpt: "La sicurezza sul lavoro non deve essere un privilegio delle grandi aziende. Scopri come Vigilant la rende accessibile a tutti...",
-  },
-  {
-    title: "Storie di Sicurezza: Impariamo dagli Errori",
-    slug: "storie-vere-aziende-sottovalutato-sicurezza-impara-errori",
-    excerpt: "Casi reali di aziende che hanno sottovalutato la sicurezza: lezioni preziose per non commettere gli stessi errori...",
-  },
-  {
-    title: "Il Futuro Digitale della Sicurezza",
-    slug: "futuro-sicurezza-lavoro-digitale-innovazioni-vigilant",
-    excerpt: "IoT, AI e cloud computing stanno rivoluzionando la sicurezza sul lavoro. Scopri le innovazioni che stanno plasmando il futuro...",
-  },
-  {
-    title: "Come Scegliere il Software di Sicurezza Ideale",
-    slug: "guida-scelta-software-sicurezza-lavoro-criteri-essenziali-vigilant",
-    excerpt: "Una guida pratica per scegliere il software di sicurezza perfetto per la tua azienda...",
-  },
-  {
-    title: "Sicurezza e Benessere: Un Binomio Vincente",
-    slug: "migliorare-benessere-aziendale-sicurezza-circolo-virtuoso-successo",
-    excerpt: "Scopri come la sicurezza sul lavoro può trasformarsi in un potente strumento per il benessere aziendale e il successo...",
-  },
+    title: "Sicurezza sul Lavoro 2024: Come Evitare Sanzioni e Proteggere i Dipendenti",
+    slug: "sicurezza-lavoro-2024-evitare-sanzioni",
+    excerpt: "Scopri come adeguarti al D.Lgs 81/2008 con tecnologie proattive per ridurre rischi e sanzioni. Richiedi una demo gratuita di Vigilant.",
+  }
 ];
 
 const recentPosts = [...blogPosts].sort((a, b) => 0.5 - Math.random()); // Simulating different order for recent posts
