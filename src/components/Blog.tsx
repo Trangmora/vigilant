@@ -12,7 +12,9 @@ const Blog = () => {
   // Convert blogPosts object to array and add slug to each post
   const postsArray = Object.entries(blogPosts).map(([slug, post]) => ({
     ...post,
-    slug
+    slug,
+    readingTime: Math.floor(Math.random() * 20) + 5, // Random reading time between 5-25 minutes
+    comments: Math.floor(Math.random() * 150) + 1 // Random number of comments between 1-150
   }));
 
   // Create different arrays for recent and popular posts
@@ -65,11 +67,11 @@ const Blog = () => {
                   <div className="mb-4 text-sm text-gray-600 flex items-center gap-6">
                     <span className="flex items-center">
                       <Clock className="h-4 w-4 mr-2 text-[#8B5CF6]" />
-                      10 min lettura
+                      {post.readingTime} min lettura
                     </span>
                     <span className="flex items-center">
                       <MessageSquare className="h-4 w-4 mr-2 text-[#8B5CF6]" />
-                      86 commenti
+                      {post.comments} commenti
                     </span>
                   </div>
                   
