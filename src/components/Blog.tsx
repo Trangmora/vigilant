@@ -57,7 +57,13 @@ const blogPosts = [
   },
 ];
 
+const recentPosts = [...blogPosts].sort((a, b) => 0.5 - Math.random()); // Simulating different order for recent posts
+const popularPosts = blogPosts.slice(0, 5); // Most read posts (first 5)
+
 const Blog = () => {
+  const [currentTab, setCurrentTab] = React.useState("recent");
+  const displayedPosts = currentTab === "recent" ? recentPosts : popularPosts;
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-[#F1F0FB]">
       <section className="py-16">
@@ -77,13 +83,13 @@ const Blog = () => {
 
           {/* Tabs Section */}
           <div className="flex justify-center mb-12">
-            <Tabs defaultValue="recent" className="w-full max-w-md">
+            <Tabs defaultValue="recent" className="w-full max-w-md" onValueChange={setCurrentTab}>
               <TabsList className="grid w-full grid-cols-2 bg-[#F1F0FB]">
-                <TabsTrigger value="recent" className="text-lg flex items-center gap-2">
+                <TabsTrigger value="popular" className="text-lg flex items-center gap-2">
                   <Sparkles className="w-4 h-4" />
                   Più Letti
                 </TabsTrigger>
-                <TabsTrigger value="popular" className="text-lg flex items-center gap-2">
+                <TabsTrigger value="recent" className="text-lg flex items-center gap-2">
                   <TrendingUp className="w-4 h-4" />
                   Ultimi
                 </TabsTrigger>
@@ -93,7 +99,7 @@ const Blog = () => {
 
           {/* Blog Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
-            {blogPosts.map((post, index) => (
+            {displayedPosts.map((post, index) => (
               <Card 
                 key={index} 
                 className="group border-none shadow-lg hover:shadow-xl transition-all duration-300 bg-white/80 backdrop-blur-sm"

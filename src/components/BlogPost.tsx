@@ -283,6 +283,10 @@ const BlogPost = () => {
     );
   }
 
+  const handleDemoClick = () => {
+    window.location.href = '/#contatti';
+  };
+
   return (
     <article className="min-h-screen">
       <div className="bg-gradient-to-br from-[#F1F0FB] to-white py-16">
@@ -325,7 +329,13 @@ const BlogPost = () => {
       <div className="container mx-auto px-4 max-w-4xl py-12">
         <div 
           className="prose prose-lg max-w-none"
-          dangerouslySetInnerHTML={{ __html: post.content }}
+          dangerouslySetInnerHTML={{ __html: post.content.replace(
+            /<Link to="/#contatti"([^>]*)>/g,
+            `<button onclick="window.location.href='/#contatti'" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">`
+          ).replace(
+            /<\/Link>/g,
+            '</button>'
+          ) }}
         />
       </div>
     </article>
