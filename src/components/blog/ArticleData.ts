@@ -212,5 +212,71 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
         </section>
       </article>
     `
+  },
+  "storie-vere-sicurezza-lavoro-vigilant-prevenzione": {
+    title: "Storie vere di sicurezza sul lavoro: il valore di Vigilant nella prevenzione",
+    excerpt: "Le esperienze reali possono dimostrare l'efficacia di un sistema di sicurezza. Scopri come la prevenzione attiva e il monitoraggio costante di Vigilant hanno contribuito a migliorare la gestione della sicurezza...",
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
+          <p>Le esperienze reali possono dimostrare l’efficacia di un sistema di sicurezza, senza entrare nei dettagli di casi specifici. In questo articolo analizziamo come la prevenzione attiva e il monitoraggio costante di Vigilant abbiano contribuito a migliorare la gestione della sicurezza, evitando conseguenze devastanti e garantendo continuità operativa.</p>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il contesto dei rischi sul lavoro</h2>
+          <ul class="list-disc pl-6 mt-4 mb-6">
+            <li>Rischi e impatti: Incidenti sul lavoro possono causare interruzioni operative, sanzioni e danni reputazionali.</li>
+            <li>Impatto economico e umano: Ogni incidente ha ripercussioni sia sul piano economico che su quello umano.</li>
+          </ul>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">L’approccio di Vigilant</h2>
+          <ul class="list-disc pl-6 mt-4 mb-6">
+            <li>Monitoraggio costante: Sensori e dispositivi intelligenti forniscono un controllo continuo, rilevando anomalie in tempo reale.</li>
+            <li>Prevenzione attiva: L’analisi predittiva consente di intervenire tempestivamente, riducendo il rischio di incidenti e salvaguardando la sicurezza.</li>
+          </ul>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Fattori chiave del successo</h2>
+          <ul class="list-disc pl-6 mt-4 mb-6">
+            <li>Tecnologia integrata: Unione di hardware e software per coprire fino al 90% dei rischi.</li>
+            <li>Interventi rapidi: Notifiche istantanee e attivazione automatica delle procedure di emergenza.</li>
+            <li>Supporto e formazione: Assistenza continua per una gestione ottimale del sistema.</li>
+          </ul>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Domande frequenti (FAQ)</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-bold mb-2">Come verifica Vigilant l’efficacia del sistema di sicurezza?</h3>
+              <p>L’efficacia si misura attraverso il monitoraggio continuo, le notifiche in tempo reale e l’analisi predittiva dei dati.</p>
+            </div>
+            <div>
+              <h3 class="font-bold mb-2">Il sistema è adatto a tutte le tipologie di aziende?</h3>
+              <p>Sì, grazie alla sua flessibilità e personalizzazione, Vigilant si adatta a diversi settori e dimensioni aziendali.</p>
+            </div>
+            <div>
+              <h3 class="font-bold mb-2">Come posso approfondire il funzionamento del sistema?</h3>
+              <p>Richiedi una demo gratuita o prenota una videochiamata dimostrativa per maggiori informazioni.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
+          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
+          <p class="mb-6">Se la sicurezza della tua azienda è una priorità, scopri come possiamo aiutarti!</p>
+          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
+        </div>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
+          <p>L’esperienza diretta nella prevenzione e nel monitoraggio è la prova che una strategia integrata di sicurezza fa la differenza. Investi in Vigilant per proteggere il tuo team e garantire continuità operativa, trasformando la sicurezza in un valore aggiunto per la tua azienda.</p>
+        </section>
+      </article>
+    `
   }
 };
