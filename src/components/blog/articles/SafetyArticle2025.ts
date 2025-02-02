@@ -97,4 +97,4 @@ export const safetyArticle2025 = {
       </section>
     </article>
   `
-};`
+};
