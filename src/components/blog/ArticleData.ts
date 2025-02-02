@@ -1,5 +1,5 @@
 import { wearableArticle } from "./articles/WearableArticle";
-import { safetyArticle2025 } from "./articles/articles/SafetyArticle2025";
+import { safetyArticle2025 } from "./articles/SafetyArticle2025";
 import { reputationArticle } from "./articles/ReputationArticle";
 import { monitoringArticle } from "./articles/MonitoringArticle";
 import { preventionArticle } from "./articles/PreventionArticle";
