@@ -85,6 +85,20 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
         </section>
 
         <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Funzionalità innovative di Vigilant</h2>
+          <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
+            <h3 class="font-bold mb-2">Monitoraggio in tempo reale:</h3>
+            <p>Rilevazione immediata di anomalie e cadute con notifiche istantanee.</p>
+            
+            <h3 class="font-bold mt-4 mb-2">Analisi dei dati:</h3>
+            <p>Raccolta e analisi continua per prevedere situazioni di pericolo.</p>
+            
+            <h3 class="font-bold mt-4 mb-2">Interfaccia intuitiva:</h3>
+            <p>Dashboard facile da usare e supporto tecnico dedicato.</p>
+          </div>
+        </section>
+
+        <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Vantaggi per le aziende</h2>
           <ul class="list-disc pl-6 mt-4 mb-6">
             <li>Riduzione dei costi: Evitare incidenti significa meno interruzioni operative e spese legali.</li>
@@ -93,8 +107,26 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
           </ul>
         </section>
 
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Domande frequenti (FAQ)</h2>
+          <div class="space-y-6">
+            <div>
+              <h3 class="font-bold mb-2">Quali tecnologie utilizza Vigilant?</h3>
+              <p>Sensori di ultima generazione, dispositivi indossabili e software di analisi dati basato su algoritmi di intelligenza artificiale.</p>
+            </div>
+            <div>
+              <h3 class="font-bold mb-2">Come riduce i costi l'adozione di Vigilant?</h3>
+              <p>Prevenendo incidenti e riducendo le interruzioni operative, il sistema permette di contenere i costi operativi.</p>
+            </div>
+            <div>
+              <h3 class="font-bold mb-2">Il sistema è personalizzabile?</h3>
+              <p>Sì, Vigilant si adatta alle esigenze specifiche di ogni azienda.</p>
+            </div>
+          </div>
+        </section>
+
         <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Proteggi il tuo business</h3>
+          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
           <p class="mb-6">Non attendere che un incidente metta a rischio la tua azienda!</p>
           <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
         </div>
