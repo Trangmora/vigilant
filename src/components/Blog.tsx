@@ -13,8 +13,8 @@ const Blog = () => {
   const postsArray = Object.entries(blogPosts).map(([slug, post]) => ({
     ...post,
     slug,
-    readingTime: Math.floor(Math.random() * 20) + 5, // Random reading time between 5-25 minutes
-    comments: Math.floor(Math.random() * 150) + 1 // Random number of comments between 1-150
+    readingTime: Math.floor(Math.random() * 9) + 1, // Random reading time between 1-9 minutes
+    comments: Math.floor(Math.random() * 25) + 1 // Random number of comments between 1-25
   }));
 
   // Create different arrays for recent and popular posts
