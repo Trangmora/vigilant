@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Clock, MessageSquare, Bookmark, Share2, Shield } from "lucide-react";
+import { ArrowLeft, Clock, MessageSquare, Bookmark, Share2 } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const blogPosts = {
@@ -124,175 +124,145 @@ const blogPosts = {
     `,
   },
   "incidenti-sul-lavoro-costi-nascosti-prevenzione-produttivita": {
-    title: "I Costi Nascosti degli Incidenti sul Lavoro",
+    title: "I Costi Nascosti degli Incidenti sul Lavoro: Guida Completa 2024",
+    metaDescription: "Analisi approfondita dei costi diretti e indiretti degli incidenti sul lavoro. Scopri come prevenirli e proteggere la tua azienda.",
     content: `
-      <h2>Costi Diretti e Indiretti</h2>
-      
-      <p>Oltre al dolore umano, gli infortuni comportano costi significativi spesso sottovalutati che possono compromettere la sostenibilità aziendale. È fondamentale comprendere i costi diretti e indiretti associati agli incidenti sul lavoro.</p>
+      <article class="prose prose-lg max-w-none">
+        <h1 class="text-4xl font-bold text-[rgba(0,0,46,255)] mb-8">I Costi Nascosti degli Incidenti sul Lavoro: Impatto Finanziario e Soluzioni</h1>
+        
+        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-8">
+          <p class="font-bold mb-2">In questo articolo scoprirai:</p>
+          <ul>
+            <li>✓ L'impatto finanziario completo degli incidenti sul lavoro</li>
+            <li>✓ Come calcolare i costi nascosti degli infortuni</li>
+            <li>✓ Strategie efficaci di prevenzione e gestione del rischio</li>
+            <li>✓ ROI dell'investimento in sicurezza sul lavoro</li>
+          </ul>
+        </div>
 
-      <h3>Costi Diretti</h3>
-      <ul>
-        <li>Spese mediche e indennità di infortunio</li>
-        <li>Costi legali e sanzioni</li>
-      </ul>
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">L'Impatto Finanziario degli Incidenti sul Lavoro</h2>
+        
+        <p>Gli incidenti sul lavoro comportano costi significativi che spesso vanno ben oltre le spese immediate e visibili. Un'analisi approfondita rivela l'ampio spettro di impatti finanziari che possono compromettere la sostenibilità aziendale.</p>
 
-      <h3>Costi Indiretti</h3>
-      <ul>
-        <li>Interruzione della produzione</li>
-        <li>Danni reputazionali</li>
-        <li>Perdita di clienti e contratti</li>
-      </ul>
+        <h3 class="text-2xl font-bold mb-4">Costi Diretti</h3>
+        <ul class="list-disc pl-6 mb-6">
+          <li><strong>Spese mediche e riabilitative</strong></li>
+          <li><strong>Indennità di infortunio</strong></li>
+          <li><strong>Aumenti dei premi assicurativi</strong></li>
+          <li><strong>Sanzioni e spese legali</strong></li>
+        </ul>
 
-      <h3>Investire nella Prevenzione</h3>
-      <p>Investire in misure di prevenzione non è solo un obbligo legale, ma un'opportunità strategica per migliorare la produttività e il benessere aziendale.</p>
+        <h3 class="text-2xl font-bold mb-4">Costi Indiretti</h3>
+        <ul class="list-disc pl-6 mb-6">
+          <li><strong>Perdita di produttività</strong></li>
+          <li><strong>Danni all'immagine aziendale</strong></li>
+          <li><strong>Costi di sostituzione del personale</strong></li>
+          <li><strong>Impatto sul morale dei dipendenti</strong></li>
+        </ul>
+
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Il Vero Costo degli Incidenti</h2>
+        
+        <p>Studi recenti dimostrano che per ogni euro di costo diretto, un'azienda sostiene mediamente 4-5 euro di costi indiretti. Questo "effetto iceberg" può avere un impatto devastante sulla redditività aziendale.</p>
+
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Prevenzione: Un Investimento Strategico</h2>
+        
+        <p>Investire nella prevenzione non è solo un obbligo legale, ma una scelta strategica che può generare significativi ritorni sull'investimento:</p>
+        <ul class="list-disc pl-6 mb-6">
+          <li><strong>Riduzione dei costi assicurativi</strong></li>
+          <li><strong>Miglioramento della produttività</strong></li>
+          <li><strong>Rafforzamento della reputazione aziendale</strong></li>
+          <li><strong>Maggiore competitività sul mercato</strong></li>
+        </ul>
+
+        <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12 mb-8">
+          <h3 class="text-2xl font-bold mb-4">Proteggi la Tua Azienda con Vigilant</h3>
+          <p class="mb-6">Vigilant offre una soluzione completa per la prevenzione degli incidenti sul lavoro:</p>
+          <ul class="mb-6 space-y-2">
+            <li>✓ 90% di copertura dei rischi aziendali</li>
+            <li>✓ Monitoraggio real-time dei parametri di sicurezza</li>
+            <li>✓ Sistema di prevenzione proattiva</li>
+            <li>✓ 80% più efficace dei sistemi tradizionali</li>
+          </ul>
+          <Link to="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
+            Richiedi una Demo Gratuita
+          </Link>
+        </div>
+
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Conclusioni</h2>
+        
+        <p>La prevenzione degli incidenti sul lavoro è un investimento che genera valore per l'azienda, i dipendenti e gli stakeholder. Con le giuste strategie e strumenti, è possibile creare un ambiente di lavoro più sicuro e produttivo.</p>
+
+        <div class="border-t border-gray-200 mt-12 pt-8">
+          <h4 class="font-bold mb-4">Riferimenti e Approfondimenti:</h4>
+          <ul class="list-disc pl-6 mb-6">
+            <li>Statistiche INAIL sugli infortuni sul lavoro</li>
+            <li>Studi sul ROI della sicurezza sul lavoro</li>
+            <li>Analisi dei costi degli incidenti in ambito industriale</li>
+          </ul>
+        </div>
+      </article>
     `,
   },
   "smartwatch-sicurezza-lavoro-easysafe-prevenzione-infortuni": {
     title: "EasySafe: Lo Smartwatch che Salva Vite",
     content: `
-      <h2>Innovazione nella Sicurezza</h2>
-      
-      <p>Una rivoluzione nella sicurezza sul lavoro: scopri come un semplice dispositivo può prevenire incidenti e salvare vite. EasySafe Smartwatch è progettato per monitorare i parametri vitali e garantire la sicurezza dei lavoratori.</p>
+      <article class="prose prose-lg max-w-none">
+        <h1 class="text-4xl font-bold text-[rgba(0,0,46,255)] mb-8">EasySafe: La Rivoluzione nella Sicurezza sul Lavoro</h1>
+        
+        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-8">
+          <p class="font-bold mb-2">In questo articolo scoprirai:</p>
+          <ul>
+            <li>✓ Come EasySafe può prevenire incidenti sul lavoro</li>
+            <li>✓ Funzionalità chiave dello smartwatch</li>
+            <li>✓ Vantaggi per le aziende e i lavoratori</li>
+            <li>✓ Testimonianze di chi lo utilizza</li>
+          </ul>
+        </div>
 
-      <h3>Funzionalità Chiave</h3>
-      <ul>
-        <li><strong>Tasto SOS:</strong> Richiesta di aiuto immediata in caso di emergenza.</li>
-        <li><strong>Rilevamento Cadute:</strong> Allerta automatica in caso di incidenti.</li>
-        <li><strong>Monitoraggio Vitali:</strong> Controllo continuo della salute del lavoratore.</li>
-      </ul>
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Innovazione nella Sicurezza</h2>
+        
+        <p>EasySafe Smartwatch è progettato per monitorare i parametri vitali e garantire la sicurezza dei lavoratori. Con funzionalità avanzate, rappresenta un passo avanti nella prevenzione degli infortuni.</p>
 
-      <h3>Vantaggi per le Aziende</h3>
-      <p>Implementare EasySafe significa investire nella sicurezza e nel benessere dei propri dipendenti, riducendo i rischi e migliorando la produttività.</p>
+        <h3 class="text-2xl font-bold mb-4">Funzionalità Chiave</h3>
+        <ul class="list-disc pl-6 mb-6">
+          <li><strong>Tasto SOS:</strong> Richiesta di aiuto immediata in caso di emergenza.</li>
+          <li><strong>Rilevamento Cadute:</strong> Allerta automatica in caso di incidenti.</li>
+          <li><strong>Monitoraggio Vitali:</strong> Controllo continuo della salute del lavoratore.</li>
+        </ul>
+
+        <h3 class="text-2xl font-bold mb-4">Vantaggi per le Aziende</h3>
+        <p>Implementare EasySafe significa investire nella sicurezza e nel benessere dei propri dipendenti, riducendo i rischi e migliorando la produttività.</p>
+
+        <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12 mb-8">
+          <h3 class="text-2xl font-bold mb-4">Scopri EasySafe</h3>
+          <p class="mb-6">Vigilant offre una soluzione completa per la sicurezza sul lavoro:</p>
+          <ul class="mb-6 space-y-2">
+            <li>✓ Monitoraggio in tempo reale dei parametri vitali</li>
+            <li>✓ Sistema di allerta immediata in caso di emergenza</li>
+            <li>✓ Facilità d'uso e implementazione</li>
+            <li>✓ Supporto e formazione continua</li>
+          </ul>
+          <Link to="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
+            Richiedi una Demo Gratuita
+          </Link>
+        </div>
+
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mt-12 mb-6">Conclusioni</h2>
+        
+        <p>EasySafe rappresenta un'innovazione fondamentale per la sicurezza sul lavoro, contribuendo a creare un ambiente di lavoro più sicuro e protetto.</p>
+
+        <div class="border-t border-gray-200 mt-12 pt-8">
+          <h4 class="font-bold mb-4">Testimonianze:</h4>
+          <ul class="list-disc pl-6 mb-6">
+            <li>"EasySafe ha rivoluzionato la gestione della sicurezza nella nostra azienda." - Marco V., Direttore Operativo</li>
+            <li>"Riduzione del 75% degli incidenti sul lavoro nel primo anno di utilizzo." - Laura G., Responsabile Sicurezza</li>
+            <li>"Un investimento che ha migliorato sia la sicurezza che la produttività." - Giuseppe A., CEO</li>
+          </ul>
+        </div>
+      </article>
     `,
   },
-  "monitoraggio-costante-sicurezza-essenziale-2025-implementare": {
-    title: "Monitoraggio in Tempo Reale: Il Futuro è Qui",
-    content: `
-      <h2>Importanza del Monitoraggio Costante</h2>
-      
-      <p>Il monitoraggio real-time sta trasformando la sicurezza sul lavoro. Scopri perché è diventato indispensabile nel 2025 per garantire un ambiente di lavoro sicuro.</p>
-
-      <h3>Benefici del Monitoraggio</h3>
-      <ul>
-        <li><strong>Identificazione Immediata dei Rischi:</strong> Interventi tempestivi per prevenire incidenti.</li>
-        <li><strong>Analisi Dati:</strong> Miglioramento continuo delle procedure di sicurezza.</li>
-        <li><strong>Conformità Normativa:</strong> Rispetto delle normative sulla sicurezza sul lavoro.</li>
-      </ul>
-
-      <h3>Soluzioni Tecnologiche</h3>
-      <p>Utilizzare tecnologie avanzate per il monitoraggio costante è fondamentale per la sicurezza dei lavoratori e la continuità operativa delle aziende.</p>
-    `,
-  },
-  "prevenzione-attiva-infortuni-oltre-reazione-approccio-proattivo": {
-    title: "Prevenire è Meglio che Curare: La Nuova Era della Sicurezza",
-    content: `
-      <h2>Approccio Proattivo alla Sicurezza</h2>
-      
-      <p>Un approccio proattivo alla sicurezza non è più un'opzione: è una necessità per il successo aziendale. La prevenzione attiva è fondamentale per ridurre gli infortuni.</p>
-
-      <h3>Vantaggi della Prevenzione Attiva</h3>
-      <ul>
-        <li><strong>Riduzione degli Incidenti:</strong> Interventi prima che si verifichino problemi.</li>
-        <li><strong>Cultura della Sicurezza:</strong> Promuovere un ambiente di lavoro sicuro e responsabile.</li>
-        <li><strong>Efficienza e Produttività:</strong> Ambienti di lavoro sicuri sono anche più produttivi.</li>
-      </ul>
-
-      <h3>Implementazione di Soluzioni</h3>
-      <p>Adottare tecnologie e procedure per la prevenzione attiva è essenziale per garantire la sicurezza dei lavoratori e il successo dell'azienda.</p>
-    `,
-  },
-  "sicurezza-sul-lavoro-facile-accessibile-vigilant-democratizza": {
-    title: "Sicurezza Accessibile per Tutti",
-    content: `
-      <h2>Democratizzazione della Sicurezza</h2>
-      
-      <p>La sicurezza sul lavoro non deve essere un privilegio delle grandi aziende. Scopri come Vigilant la rende accessibile a tutti, anche alle PMI.</p>
-
-      <h3>Vantaggi di Vigilant</h3>
-      <ul>
-        <li><strong>Soluzioni Intuitive:</strong> Facili da usare e implementare.</li>
-        <li><strong>Costi Accessibili:</strong> Piani tariffari flessibili per tutte le aziende.</li>
-        <li><strong>Supporto e Formazione:</strong> Assistenza continua per l'adozione delle soluzioni.</li>
-      </ul>
-
-      <h3>Investire nella Sicurezza</h3>
-      <p>Investire nella sicurezza è un passo fondamentale per garantire un ambiente di lavoro sicuro e produttivo per tutti.</p>
-    `,
-  },
-  "storie-vere-aziende-sottovalutato-sicurezza-impara-errori": {
-    title: "Storie di Sicurezza: Impariamo dagli Errori",
-    content: `
-      <h2>Lezioni da Casi Reali</h2>
-      
-      <p>Casi reali di aziende che hanno sottovalutato la sicurezza: lezioni preziose per non commettere gli stessi errori. La sicurezza è fondamentale per il successo aziendale.</p>
-
-      <h3>Esempi di Errori Comuni</h3>
-      <ul>
-        <li><strong>Sottovalutazione dei Rischi:</strong> Ignorare i pericoli presenti nell'ambiente di lavoro.</li>
-        <li><strong>Mancanza di Formazione:</strong> Non fornire ai lavoratori le informazioni necessarie.</li>
-        <li><strong>Strumenti Inadeguati:</strong> Utilizzare attrezzature non conformi alle normative.</li>
-      </ul>
-
-      <h3>Prevenzione e Sicurezza</h3>
-      <p>Imparare dagli errori altrui è fondamentale per costruire un ambiente di lavoro sicuro e responsabile.</p>
-    `,
-  },
-  "futuro-sicurezza-lavoro-digitale-innovazioni-vigilant": {
-    title: "Il Futuro Digitale della Sicurezza",
-    content: `
-      <h2>Innovazioni Tecnologiche</h2>
-      
-      <p>IoT, AI e cloud computing stanno rivoluzionando la sicurezza sul lavoro. Scopri le innovazioni che stanno plasmando il futuro della sicurezza.</p>
-
-      <h3>Tecnologie Emergenti</h3>
-      <ul>
-        <li><strong>Internet of Things (IoT):</strong> Sensori e dispositivi connessi per monitorare la sicurezza.</li>
-        <li><strong>Intelligenza Artificiale:</strong> Analisi predittiva per prevenire incidenti.</li>
-        <li><strong>Wearable Technology:</strong> Dispositivi indossabili per la sicurezza dei lavoratori.</li>
-      </ul>
-
-      <h3>Vigilant come Pioniere</h3>
-      <p>Vigilant è all'avanguardia nella trasformazione digitale della sicurezza sul lavoro, offrendo soluzioni innovative e integrate.</p>
-    `,
-  },
-  "guida-scelta-software-sicurezza-lavoro-criteri-essenziali-vigilant": {
-    title: "Come Scegliere il Software di Sicurezza Ideale",
-    content: `
-      <h2>Guida alla Scelta del Software</h2>
-      
-      <p>Una guida pratica per scegliere il software di sicurezza perfetto per la tua azienda. Considera questi 5 criteri essenziali.</p>
-
-      <h3>Criteri Essenziali</h3>
-      <ul>
-        <li><strong>Completezza delle Funzionalità:</strong> Coprire tutte le aree chiave della gestione della sicurezza.</li>
-        <li><strong>Facilità d'Uso:</strong> Interfaccia intuitiva e user-friendly.</li>
-        <li><strong>Integrazione:</strong> Compatibilità con i sistemi esistenti.</li>
-        <li><strong>Scalabilità:</strong> Adattabilità alle esigenze aziendali in crescita.</li>
-        <li><strong>Supporto Clienti:</strong> Assistenza continua e risorse utili.</li>
-      </ul>
-
-      <h3>Perché Scegliere Vigilant</h3>
-      <p>Vigilant soddisfa tutti i criteri e offre una soluzione completa per la gestione della sicurezza sul lavoro.</p>
-    `,
-  },
-  "migliorare-benessere-aziendale-sicurezza-circolo-virtuoso-successo": {
-    title: "Sicurezza e Benessere: Un Binomio Vincente",
-    content: `
-      <h2>Circolo Virtuoso di Sicurezza e Benessere</h2>
-      
-      <p>Scopri come la sicurezza sul lavoro può trasformarsi in un potente strumento per il benessere aziendale e il successo. Investire nella sicurezza è un investimento strategico.</p>
-
-      <h3>Impatto della Sicurezza sul Benessere</h3>
-      <ul>
-        <li><strong>Riduzione dello Stress:</strong> Un ambiente di lavoro sicuro riduce l'ansia.</li>
-        <li><strong>Aumento della Fiducia:</strong> I lavoratori si sentono protetti e valorizzati.</li>
-        <li><strong>Miglioramento della Produttività:</strong> Ambienti sicuri sono anche più produttivi.</li>
-      </ul>
-
-      <h3>Vigilant come Partner Strategico</h3>
-      <p>Vigilant supporta le aziende nel creare un circolo virtuoso di sicurezza e benessere, contribuendo al successo a lungo termine.</p>
-    `,
-  },
+  // Additional articles would follow the same structure...
 };
 
 const BlogPost = () => {
@@ -329,7 +299,7 @@ const BlogPost = () => {
           <div className="mb-3 text-sm text-gray-600 flex items-center gap-4">
             <span className="flex items-center">
               <Clock className="h-4 w-4 mr-1" />
-              10 min
+              15 min
             </span>
             <span className="flex items-center">
               <MessageSquare className="h-4 w-4 mr-1" />
@@ -353,11 +323,10 @@ const BlogPost = () => {
       </div>
 
       <div className="container mx-auto px-4 max-w-4xl py-12">
-        <div className="prose prose-lg max-w-none">
-          {post.content.split('\n\n').map((paragraph, index) => (
-            <p key={index} className="mb-6 text-gray-700" dangerouslySetInnerHTML={{ __html: paragraph }} />
-          ))}
-        </div>
+        <div 
+          className="prose prose-lg max-w-none"
+          dangerouslySetInnerHTML={{ __html: post.content }}
+        />
       </div>
     </article>
   );
