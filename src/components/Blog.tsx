@@ -8,8 +8,11 @@ import { blogPosts } from "./blog/ArticleData";
 
 const Blog = () => {
   const [currentTab, setCurrentTab] = React.useState("recent");
-  const recentPosts = [...blogPosts].sort((a, b) => 0.5 - Math.random());
-  const popularPosts = blogPosts.slice(0, 5);
+  
+  // Convert object to array and sort
+  const postsArray = Object.values(blogPosts);
+  const recentPosts = [...postsArray].sort((a, b) => 0.5 - Math.random());
+  const popularPosts = postsArray.slice(0, 5);
   const displayedPosts = currentTab === "recent" ? recentPosts : popularPosts;
 
   return (
