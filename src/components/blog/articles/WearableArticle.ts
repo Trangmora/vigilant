@@ -1,6 +1,5 @@
 export const wearableArticle = {
   title: "Tecnologia Wearable in Azienda: Come Ridurre gli Incidenti del 70%",
-  slug: "tecnologia-wearable-azienda-ridurre-incidenti",
   excerpt: "Scopri come dispositivi intelligenti come lo smartwatch Vigilant prevengono cadute e monitorano parametri vitali. Richiedi una prova.",
   content: `
     <article class="prose prose-lg max-w-none">

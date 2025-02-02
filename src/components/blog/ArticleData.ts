@@ -2,8 +2,12 @@ import { safetyArticle2024 } from "./articles/SafetyArticle";
 import { wearableArticle } from "./articles/WearableArticle";
 
 export const blogPosts: Record<string, { title: string; content: string; excerpt: string }> = {
+  "tecnologia-wearable-azienda-ridurre-incidenti": {
+    title: "Tecnologia Wearable in Azienda: Come Ridurre gli Incidenti del 70%",
+    excerpt: "Scopri come dispositivi intelligenti come lo smartwatch Vigilant prevengono cadute e monitorano parametri vitali. Richiedi una prova.",
+    content: wearableArticle.content
+  },
   "sicurezza-lavoro-2024-evitare-sanzioni-proteggere-dipendenti": safetyArticle2024,
-  "tecnologia-wearable-azienda-ridurre-incidenti": wearableArticle,
   "importanza-sicurezza-lavoro-era-digitale": {
     title: "L'importanza della sicurezza sul lavoro nell'era digitale",
     excerpt: "Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale...",
