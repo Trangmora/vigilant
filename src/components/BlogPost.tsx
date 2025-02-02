@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Clock, MessageSquare, Bookmark, Share2 } from "lucide-react";
 
@@ -340,6 +340,7 @@ const blogPosts = {
 
 const BlogPost = () => {
   const { slug } = useParams();
+  const navigate = useNavigate();
   const post = blogPosts[slug as keyof typeof blogPosts];
 
   if (!post) {
@@ -358,7 +359,7 @@ const BlogPost = () => {
 
   const processedContent = post.content.replace(
     /<a href="#contatti"([^>]*)>/g,
-    '<button onclick="document.getElementById(\'contatti\').scrollIntoView({behavior: \'smooth\'})" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">'
+    '<button onclick="window.location.href=\'/#contatti\'" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">'
   ).replace(
     /<\/a>/g,
     '</button>'
