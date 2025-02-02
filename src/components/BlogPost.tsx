@@ -7,35 +7,77 @@ const blogPosts = {
   "dlgs-81-2008-guida-completa-aziende-adeguarsi-facilmente": {
     title: "Come migliorare la sicurezza",
     content: `
-      <h2>La Sicurezza sul Lavoro nel 2025</h2>
+      <h2>La Sicurezza sul Lavoro nel 2025: Una Guida Completa</h2>
       
-      <p>Il Decreto Legislativo 81/2008 rappresenta la pietra miliare normativa per la sicurezza in Italia. Nel <strong>2025</strong>, la sua importanza rimane cruciale per tutte le aziende, indipendentemente dal settore o dalle dimensioni.</p>
+      <p>Il <strong>Decreto Legislativo 81/2008</strong> rappresenta il fondamento normativo per la sicurezza sul lavoro in Italia. Nel 2025, la sua rilevanza è più cruciale che mai, coinvolgendo aziende di ogni dimensione e settore. Questa guida approfondita esplora come le aziende possono non solo conformarsi alla normativa, ma anche trasformare la sicurezza in un vantaggio competitivo.</p>
 
-      <h3>Principi Fondamentali</h3>
+      <h3>Principi Fondamentali del D.Lgs 81/2008</h3>
       
-      <p>Il decreto stabilisce le misure per la tutela della salute e della sicurezza dei lavoratori in tutti i settori di attività. L'obiettivo primario è <strong>prevenire infortuni e malattie professionali</strong>, garantendo un ambiente di lavoro sicuro e salubre.</p>
-
-      <h3>Obblighi del Datore di Lavoro</h3>
+      <p>Il decreto stabilisce un quadro completo per la tutela della salute e sicurezza dei lavoratori. Gli obiettivi principali includono:</p>
       
-      <p><strong>Valutazione dei Rischi:</strong> Identificare e valutare tutti i rischi presenti nell'ambiente di lavoro, elaborando il Documento di Valutazione dei Rischi (DVR).</p>
-      
-      <p><strong>Formazione e Informazione:</strong> Fornire ai lavoratori una formazione adeguata e specifica sui rischi e sulle misure di prevenzione.</p>
-      
-      <p><strong>Dispositivi di Protezione:</strong> Fornire DPI adeguati ai rischi e assicurarsi che siano utilizzati correttamente.</p>
-
-      <h3>Conseguenze delle Inadempienze</h3>
-      
-      <p>Le sanzioni previste includono multe pecuniarie, sanzioni penali e possibile blocco dell'attività in caso di gravi violazioni.</p>
-
-      <h3>Soluzioni Tecnologiche</h3>
-      
-      <p><strong>Vigilant offre:</strong></p>
       <ul>
-        <li>Monitoraggio costante dei parametri di sicurezza</li>
-        <li>Reportistica automatizzata</li>
-        <li>Gestione documentale centralizzata</li>
-        <li>Prevenzione proattiva</li>
+        <li><strong>Prevenzione proattiva</strong> degli infortuni e delle malattie professionali</li>
+        <li><strong>Creazione di ambienti di lavoro</strong> sicuri e salubri</li>
+        <li><strong>Promozione di una cultura</strong> della sicurezza aziendale</li>
       </ul>
+
+      <h3>Responsabilità del Datore di Lavoro</h3>
+      
+      <p>Le responsabilità chiave includono:</p>
+      
+      <ul>
+        <li><strong>Valutazione dei Rischi:</strong> Sviluppo e aggiornamento continuo del DVR</li>
+        <li><strong>Formazione del Personale:</strong> Programmi di formazione specifici e mirati</li>
+        <li><strong>Gestione DPI:</strong> Fornitura e manutenzione dei dispositivi di protezione</li>
+        <li><strong>Monitoraggio Continuo:</strong> Verifica costante dell'efficacia delle misure di sicurezza</li>
+      </ul>
+
+      <h3>Implementazione Pratica</h3>
+      
+      <p>L'implementazione efficace richiede:</p>
+      
+      <ul>
+        <li><strong>Analisi dettagliata</strong> dei rischi specifici del settore</li>
+        <li><strong>Sviluppo di procedure</strong> chiare e documentate</li>
+        <li><strong>Creazione di un sistema</strong> di reporting e monitoraggio</li>
+        <li><strong>Formazione continua</strong> del personale a tutti i livelli</li>
+      </ul>
+
+      <h3>Tecnologie e Innovazione nella Sicurezza</h3>
+      
+      <p>Le moderne soluzioni tecnologiche, come Vigilant, offrono:</p>
+      
+      <ul>
+        <li><strong>Monitoraggio in tempo reale</strong> dei parametri di sicurezza</li>
+        <li><strong>Analisi predittiva</strong> per prevenire incidenti</li>
+        <li><strong>Gestione documentale</strong> centralizzata e automatizzata</li>
+        <li><strong>Dashboard interattive</strong> per il controllo e l'analisi</li>
+      </ul>
+
+      <h3>Benefici di un Approccio Strutturato</h3>
+      
+      <p>Un approccio strutturato alla sicurezza porta a:</p>
+      
+      <ul>
+        <li><strong>Riduzione significativa</strong> degli incidenti sul lavoro</li>
+        <li><strong>Miglioramento della produttività</strong> e dell'efficienza operativa</li>
+        <li><strong>Rafforzamento della reputazione</strong> aziendale</li>
+        <li><strong>Riduzione dei costi</strong> associati agli infortuni</li>
+      </ul>
+
+      <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12 mb-8">
+        <h3 class="text-xl font-bold mb-4">Trasforma la Sicurezza nella Tua Azienda con Vigilant</h3>
+        <p class="mb-6">Scopri come Vigilant può aiutarti a implementare un sistema di sicurezza efficace e conforme alle normative. La nostra soluzione integrata offre:</p>
+        <ul class="mb-6">
+          <li>✓ Monitoraggio in tempo reale</li>
+          <li>✓ Analisi predittiva dei rischi</li>
+          <li>✓ Gestione documentale automatizzata</li>
+          <li>✓ Supporto specializzato</li>
+        </ul>
+        <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
+          Richiedi una Demo Gratuita
+        </a>
+      </div>
     `,
   },
   "incidenti-sul-lavoro-costi-nascosti-prevenzione-produttivita": {
