@@ -25,7 +25,7 @@ export const wearableArticle = {
         <p>Il Vigilant Smartwatch è dotato di funzionalità avanzate per garantire la sicurezza dei lavoratori. Tra le principali caratteristiche troviamo:</p>
         <ul class="list-disc pl-6 mt-4 mb-6">
           <li><strong>Rilevamento Automatico delle Cadute:</strong> Algoritmi sofisticati analizzano i movimenti del corpo e, in caso di caduta, attivano immediatamente un allarme.</li>
-          <li><strong>Pulsante SOS Integrato:</strong> Con un semplice tocco, il dispositivo invia una chiamata d’emergenza e notifica immediatamente i responsabili della sicurezza.</li>
+          <li><strong>Pulsante SOS Integrato:</strong> Con un semplice tocco, il dispositivo invia una chiamata d'emergenza e notifica immediatamente i responsabili della sicurezza.</li>
           <li><strong>Monitoraggio dei Parametri Vitali:</strong> Il dispositivo controlla costantemente il battito cardiaco, il livello di ossigenazione e altri indicatori vitali.</li>
         </ul>
       </section>
@@ -55,7 +55,7 @@ export const wearableArticle = {
         <div class="space-y-6">
           <div>
             <h3 class="font-bold mb-2">Quali settori beneficiano di più dei dispositivi wearable?</h3>
-            <p>La tecnologia indossabile è particolarmente utile in settori ad alto rischio come l’industria, la logistica e la sanità.</p>
+            <p>La tecnologia indossabile è particolarmente utile in settori ad alto rischio come l'industria, la logistica e la sanità.</p>
           </div>
           <div>
             <h3 class="font-bold mb-2">Il dispositivo interferisce con le attività lavorative?</h3>
