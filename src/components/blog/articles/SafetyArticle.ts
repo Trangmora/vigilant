@@ -65,12 +65,6 @@ export const safetyArticle = {
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
         <p>Nel 2025, una soluzione di sicurezza a 360° è una necessità, non un optional. Vigilant offre una piattaforma integrata che unisce monitoraggio, formazione e gestione delle emergenze, garantendo una protezione completa e riducendo i costi operativi. Investire in una soluzione integrata significa preparare l'azienda ad affrontare le sfide future in modo efficace e sostenibile, proteggendo il capitale umano e migliorando la reputazione aziendale.</p>
       </section>
-
-      <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-        <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Scarica l'e-book gratuito</h3>
-        <p class="mb-6">Scarica l'e-book gratuito "Sicurezza 360°: Guida Definitiva" e scopri come una soluzione integrata come Vigilant può rivoluzionare la sicurezza della tua azienda.</p>
-        <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Scarica l'e-book gratuito</a>
-      </div>
     </article>
   `
 };
