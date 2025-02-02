@@ -3,8 +3,6 @@ export const futureArticle2024 = {
   excerpt: "Scopri le tecnologie emergenti che rivoluzioneranno la sicurezza aziendale. Prova Vigilant, l'innovazione già disponibile.",
   content: `
     <article class="prose prose-lg mx-auto">
-      <h1>Il Futuro della Sicurezza sul Lavoro: Trend e Innovazioni 2024</h1>
-
       <section class="mb-12">
         <h2>Introduzione</h2>
         <p>Il mondo della sicurezza sul lavoro è in continua evoluzione, spinto dall'innovazione tecnologica e dalle nuove normative. L'intelligenza artificiale, l'Internet of Things (IoT) e l'analisi dei big data stanno rivoluzionando il modo in cui le aziende gestiscono i rischi, offrendo soluzioni sempre più sofisticate per prevenire incidenti e proteggere i lavoratori. In questo articolo esploreremo i trend e le innovazioni che definiranno il futuro della sicurezza sul lavoro nel 2024, evidenziando come Vigilant sia già all'avanguardia in questo processo di trasformazione.</p>

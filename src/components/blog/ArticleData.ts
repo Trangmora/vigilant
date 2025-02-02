@@ -14,7 +14,7 @@ const addCommonCTA = (content: string) => {
     <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
       <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Scopri come proteggere la tua azienda</h3>
       <p class="mb-6">Prenota una chiamata gratuita per conoscere Vigilant e scoprire come può incrementare la sicurezza in azienda in maniera molto facile.</p>
-      <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Prenota una chiamata gratuita</a>
+      <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Prenota una chiamata gratuita</a>
     </div>
   `;
 
