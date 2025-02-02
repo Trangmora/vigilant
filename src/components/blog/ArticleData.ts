@@ -105,7 +105,7 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
     `
   },
   "importanza-sicurezza-lavoro-era-digitale": {
-    title: "L'importanza della sicurezza sul lavoro nell'era digitale: come Vigilant trasforma la prevenzione",
+    title: "L'importanza della sicurezza sul lavoro nell'era digitale",
     excerpt: "Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale...",
     content: `
       <article class="prose prose-lg max-w-none">
@@ -234,7 +234,7 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
   },
   "prevenzione-attiva-monitoraggio-costante": {
     title: "Prevenzione attiva e monitoraggio costante: la rivoluzione di Vigilant",
-    excerpt: "La prevenzione è la chiave per evitare incidenti sul lavoro e garantire la continuità operativa...",
+    excerpt: "La prevenzione è la chiave per evitare incidenti sul lavoro e garantire la continuità operativa. Scopri come Vigilant trasforma la sicurezza aziendale...",
     content: `
       <article class="prose prose-lg max-w-none">
         <section class="mb-12">
@@ -369,111 +369,6 @@ export const blogPosts: Record<string, { title: string; content: string; excerpt
         <section class="mb-12">
           <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
           <p>Le esperienze di aziende come Quarry Srl, TechnoLogistics SpA e Industrial Solutions dimostrano che la prevenzione attiva e il monitoraggio costante possono fare la differenza. Con Vigilant, la sicurezza non è solo un obbligo normativo, ma una strategia vincente per proteggere le persone e il business. Scegli la tecnologia che salva vite e reputazioni.</p>
-        </section>
-      </article>
-    `
-  },
-  "futuro-sicurezza-lavoro-digitale-innovazioni-vigilant": {
-    title: "Il Futuro Digitale della Sicurezza",
-    content: `
-      <article class="prose prose-lg max-w-none">
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
-          <p>Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale. Con l'avvento delle tecnologie digitali, è diventato possibile monitorare e prevenire i rischi in tempo reale.</p>
-        </section>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il contesto attuale della sicurezza sul lavoro</h2>
-          <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
-            <p>Negli ultimi anni, numerose aziende hanno vissuto esperienze drammatiche a causa di incidenti sul lavoro, con conseguenze economiche, legali e reputazionali. Le normative, come il D.Lgs 81/2008 in Italia, impongono standard rigorosi, ma spesso gli strumenti tradizionali non sono sufficienti a garantire la sicurezza in ambienti complessi.</p>
-          </div>
-          <ul class="list-disc pl-6 mb-6">
-            <li>Il rischio di incidenti e le conseguenze: blocchi delle attività, sanzioni e perdita di fiducia dei clienti.</li>
-            <li>La necessità di soluzioni innovative: le tecnologie digitali offrono nuovi strumenti per il monitoraggio costante e la prevenzione attiva dei rischi.</li>
-          </ul>
-        </section>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">La rivoluzione digitale nella sicurezza sul lavoro</h2>
-          <p>L'integrazione di tecnologie avanzate nel monitoraggio della sicurezza sul lavoro ha aperto la strada a soluzioni che vanno ben oltre il controllo manuale e periodico.</p>
-          <div class="bg-[#F1F0FB] p-6 rounded-lg my-6">
-            <ul class="list-disc pl-6">
-              <li>Monitoraggio in tempo reale: grazie a sensori e dispositivi intelligenti</li>
-              <li>Analisi predittiva: l'uso di algoritmi e intelligenza artificiale</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Come Vigilant sta trasformando la sicurezza</h2>
-          <p>La piattaforma Vigilant offre una soluzione completa, con un approccio integrato che unisce hardware e software per garantire:</p>
-          <div class="bg-[#F1F0FB] p-6 rounded-lg my-6">
-            <ul class="list-disc pl-6">
-              <li>Protezione Completa: copertura del 90% dei rischi aziendali</li>
-              <li>Monitoraggio Costante: sistemi di rilevazione in tempo reale</li>
-              <li>Prevenzione Attiva: interventi proattivi che riducono gli incidenti del 75%</li>
-            </ul>
-          </div>
-        </section>
-
-        <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Pronto a proteggere la tua azienda?</h3>
-          <p class="mb-6">Non aspettare che sia troppo tardi. Scopri come Vigilant può aiutarti a creare un ambiente di lavoro più sicuro.</p>
-          <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
-        </div>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
-          <p>La sicurezza sul lavoro non è mai stata così importante e, con strumenti digitali come Vigilant, puoi garantire un ambiente di lavoro sicuro e protetto. Investi nella prevenzione significa proteggere il tuo team, evitare sanzioni e rafforzare la reputazione della tua azienda.</p>
-        </section>
-      </article>
-    `
-  },
-  "come-scegliere-software-sicurezza-ideale": {
-    title: "Come Scegliere il Software di Sicurezza Ideale",
-    excerpt: "Una guida pratica per scegliere il software di sicurezza perfetto per la tua azienda...",
-    content: `
-      <article class="prose prose-lg max-w-none">
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
-          <p>La scelta del software di sicurezza giusto è fondamentale per garantire un ambiente di lavoro sicuro e conforme alle normative. In questo articolo, esploreremo i criteri essenziali da considerare nella selezione del software di sicurezza ideale per la tua azienda.</p>
-        </section>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Criteri di selezione</h2>
-          <ul class="list-disc pl-6 mb-6">
-            <li>Compatibilità con le infrastrutture esistenti: Assicurati che il software possa integrarsi facilmente con i sistemi già in uso nella tua azienda.</li>
-            <li>Facilità d'uso: Un'interfaccia intuitiva è fondamentale per garantire che il personale possa utilizzare il software senza difficoltà.</li>
-            <li>Supporto e formazione: Verifica che il fornitore offra supporto tecnico e formazione per garantire un utilizzo ottimale del software.</li>
-            <li>Funzionalità avanzate: Cerca un software che offra funzionalità come monitoraggio in tempo reale, analisi predittiva e reportistica dettagliata.</li>
-          </ul>
-        </section>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
-          <p>Investire nel software di sicurezza giusto è un passo fondamentale per garantire la sicurezza dei tuoi dipendenti e la conformità alle normative. Con Vigilant, puoi contare su una soluzione completa e innovativa per proteggere la tua azienda.</p>
-        </section>
-      </article>
-    `
-  },
-  "sicurezza-e-benessere-un-binomio-vincente": {
-    title: "Sicurezza e Benessere: Un Binomio Vincente",
-    excerpt: "Scopri come la sicurezza sul lavoro può trasformarsi in un potente strumento per il benessere aziendale e il successo...",
-    content: `
-      <article class="prose prose-lg max-w-none">
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
-          <p>La sicurezza sul lavoro non è solo un obbligo normativo, ma un elemento chiave per il benessere dei dipendenti e il successo dell'azienda. In questo articolo, esploreremo come una gestione efficace della sicurezza possa contribuire a creare un ambiente di lavoro positivo e produttivo.</p>
-        </section>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il legame tra sicurezza e benessere</h2>
-          <p>Investire nella sicurezza significa anche investire nel benessere dei dipendenti. Un ambiente di lavoro sicuro riduce lo stress e aumenta la soddisfazione lavorativa, portando a una maggiore produttività e a una riduzione del turnover.</p>
-        </section>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
-          <p>La sicurezza e il benessere sono due facce della stessa medaglia. Investire in sicurezza significa investire nel futuro della tua azienda e nel benessere dei tuoi dipendenti. Con Vigilant, puoi garantire un ambiente di lavoro sicuro e positivo.</p>
         </section>
       </article>
     `
