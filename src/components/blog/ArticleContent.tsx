@@ -1,21 +1,13 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
 
 interface ArticleContentProps {
   content: string;
 }
 
 export const ArticleContent = ({ content }: ArticleContentProps) => {
-  const handleContactClick = () => {
-    window.location.href = '/#contatti';
-  };
-
   const processedContent = content.replace(
     /<a href="#contatti"([^>]*)>/g,
-    '<button class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors" onclick="window.location.href=\'/#contatti\'">'
-  ).replace(
-    /<\/a>/g,
-    '</button>'
+    '<a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">'
   );
 
   return (

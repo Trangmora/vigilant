@@ -4,19 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock, MessageSquare, Bookmark, Shield, TrendingUp, Sparkles } from "lucide-react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-
-const blogPosts = [
-  {
-    title: "Tecnologia Wearable in Azienda: Come Ridurre gli Incidenti del 70%",
-    slug: "tecnologia-wearable-azienda-ridurre-incidenti",
-    excerpt: "Scopri come dispositivi intelligenti come lo smartwatch Vigilant prevengono cadute e monitorano parametri vitali. Richiedi una prova.",
-  },
-  {
-    title: "Sicurezza sul Lavoro 2024: Come Evitare Sanzioni e Proteggere i Dipendenti",
-    slug: "sicurezza-lavoro-2024-evitare-sanzioni",
-    excerpt: "Scopri come adeguarti al D.Lgs 81/2008 con tecnologie proattive per ridurre rischi e sanzioni. Richiedi una demo gratuita di Vigilant.",
-  }
-];
+import { blogPosts } from "./blog/ArticleData";
 
 const recentPosts = [...blogPosts].sort((a, b) => 0.5 - Math.random()); // Simulating different order for recent posts
 const popularPosts = blogPosts.slice(0, 5); // Most read posts (first 5)
