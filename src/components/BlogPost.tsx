@@ -1,7 +1,7 @@
-import { useParams } from "react-router-dom";
+import React from "react";
+import { useParams, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Clock, MessageSquare, Bookmark, Share2 } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const blogPosts = {
   "dlgs-81-2008-guida-completa-aziende-adeguarsi-facilmente": {
@@ -282,10 +282,6 @@ const BlogPost = () => {
       </div>
     );
   }
-
-  const handleDemoClick = () => {
-    window.location.href = '/#contatti';
-  };
 
   const processedContent = post.content.replace(
     /<Link to="\/#contatti"([^>]*)>/g,

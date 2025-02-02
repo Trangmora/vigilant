@@ -117,7 +117,7 @@ const Blog = () => {
                     </span>
                   </div>
                   
-                  <Link to={`/blog/${post.slug}`}>
+                  <Link to={`/blog/${post.slug}`} className="block">
                     <h2 className="text-2xl font-bold mb-4 text-[rgba(0,0,46,255)] group-hover:text-[#8B5CF6] transition-colors line-clamp-2 font-montserrat">
                       {post.title}
                     </h2>
