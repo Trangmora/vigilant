@@ -7,6 +7,11 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const blogPosts = [
   {
+    title: "Tecnologia Wearable in Azienda: Come Ridurre gli Incidenti del 70%",
+    slug: "tecnologia-wearable-azienda-ridurre-incidenti",
+    excerpt: "Scopri come dispositivi intelligenti come lo smartwatch Vigilant prevengono cadute e monitorano parametri vitali. Richiedi una prova.",
+  },
+  {
     title: "L'importanza della sicurezza sul lavoro nell'era digitale",
     slug: "importanza-sicurezza-lavoro-era-digitale",
     excerpt: "Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale...",
