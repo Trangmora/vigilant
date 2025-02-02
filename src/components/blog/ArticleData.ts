@@ -2,7 +2,7 @@ import { securityArticles } from './articles/SecurityArticles';
 import { preventionArticles } from './articles/PreventionArticles';
 import { technologyArticles } from './articles/TechnologyArticles';
 
-export const blogPosts = {
+export const blogPosts: Record<string, { title: string; content: string; excerpt: string }> = {
   "importanza-sicurezza-lavoro-era-digitale": {
     title: "L'importanza della sicurezza sul lavoro nell'era digitale: come Vigilant trasforma la prevenzione",
     content: securityArticles["importanza-sicurezza-lavoro-era-digitale"].content,
@@ -10,7 +10,14 @@ export const blogPosts = {
   },
   "innovazione-protezione-tecnologia-sicurezza": {
     title: "Innovazione e protezione: il ruolo della tecnologia nella sicurezza aziendale",
-    content: technologyArticles["innovazione-protezione-tecnologia-sicurezza"].content,
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
+          <p>In un'epoca in cui l'innovazione tecnologica è al centro di ogni strategia aziendale, la sicurezza sul lavoro non può rimanere indietro...</p>
+        </section>
+      </article>
+    `,
     excerpt: "In un'epoca in cui l'innovazione tecnologica è al centro di ogni strategia aziendale, la sicurezza sul lavoro non può rimanere indietro...",
   },
   "i-costi-nascosti-degli-incidenti-sul-lavoro": {
