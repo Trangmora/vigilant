@@ -1,11 +1,9 @@
 export const technologyArticles = {
   "smartwatch-sicurezza-lavoro-easysafe-prevenzione-infortuni": {
-    title: "Smartwatch e Sicurezza sul Lavoro: La Rivoluzione della Prevenzione - Guida Completa 2024",
-    metaDescription: "Scopri come gli smartwatch stanno trasformando la sicurezza sul lavoro con tecnologia all'avanguardia, monitoraggio in tempo reale e prevenzione intelligente degli infortuni.",
+    title: "Smartwatch e Sicurezza sul Lavoro: La Rivoluzione della Prevenzione",
+    metaDescription: "Scopri come gli smartwatch stanno trasformando la sicurezza sul lavoro con tecnologia all'avanguardia e monitoraggio in tempo reale.",
     content: `
       <article class="prose prose-lg max-w-none">
-        <h1 class="text-4xl font-bold text-[rgba(0,0,46,255)] mb-8">Smartwatch e Sicurezza sul Lavoro: La Rivoluzione della Prevenzione</h1>
-        
         <div class="bg-[#F1F0FB] p-6 rounded-lg mb-8">
           <p class="font-bold mb-2">In questa guida completa scoprirai:</p>
           <ul>
@@ -16,86 +14,120 @@ export const technologyArticles = {
           </ul>
         </div>
 
-        <div class="bg-blue-50 p-6 rounded-lg mb-8">
-          <p class="text-lg font-semibold mb-4">Stai cercando una soluzione immediata per migliorare la sicurezza nella tua azienda?</p>
-          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
-            Scopri come Vigilant può aiutarti →
-          </a>
-        </div>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">L'Evoluzione della Sicurezza sul Lavoro nell'Era Digitale</h2>
-          <p class="mb-4">La sicurezza sul lavoro ha subito una trasformazione radicale negli ultimi decenni. L'avvento degli smartwatch e dei dispositivi indossabili ha aperto nuove frontiere nella protezione dei lavoratori, consentendo un monitoraggio continuo e in tempo reale delle condizioni di sicurezza.</p>
-        </section>
-
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Tecnologie Chiave negli Smartwatch per la Sicurezza</h2>
-          <p class="mb-4">I dispositivi indossabili stanno rivoluzionando il modo in cui monitoriamo e gestiamo la sicurezza sul lavoro, combinando sensori avanzati, intelligenza artificiale e analisi predittiva per creare un ambiente di lavoro più sicuro.</p>
-        </section>
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">L'Evoluzione della Sicurezza sul Lavoro</h2>
+        <p>La sicurezza sul lavoro ha subito una trasformazione radicale negli ultimi anni. L'avvento degli smartwatch e dei dispositivi indossabili ha aperto nuove frontiere nella protezione dei lavoratori.</p>
 
         <div class="bg-blue-50 p-6 rounded-lg my-8">
-          <p class="text-lg font-semibold mb-4">Non aspettare il prossimo incidente.</p>
+          <p class="text-lg font-semibold mb-4">Vuoi proteggere il tuo team con tecnologia all'avanguardia?</p>
           <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
-            Richiedi una demo gratuita di Vigilant →
+            Scopri le soluzioni più innovative →
           </a>
         </div>
 
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Casi Studio nel Settore Industriale</h2>
-          <h3 class="text-2xl font-bold mb-4">Acciaieria Nazionale SpA</h3>
-          <div class="bg-gray-50 p-6 rounded-lg mb-6">
-            <p class="font-bold mb-2">Risultati dopo l'implementazione degli smartwatch:</p>
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Funzionalità Chiave degli Smartwatch per la Sicurezza</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-bold mb-4">Monitoraggio Avanzato</h3>
             <ul class="list-disc pl-6">
-              <li>Riduzione del 78% degli incidenti nel primo anno</li>
-              <li>ROI del 312% dopo 18 mesi</li>
-              <li>Diminuzione del 45% dei premi assicurativi</li>
+              <li>Parametri vitali</li>
+              <li>Rilevamento cadute</li>
+              <li>Geolocalizzazione</li>
+              <li>Allarmi automatici</li>
             </ul>
           </div>
-
-          <h3 class="text-2xl font-bold mb-4">Settore Edile</h3>
-          <div class="bg-gray-50 p-6 rounded-lg mb-6">
-            <p class="font-bold mb-2">Costruzioni Moderne Srl:</p>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-bold mb-4">Comunicazione</h3>
             <ul class="list-disc pl-6">
-              <li>Zero incidenti gravi in 24 mesi</li>
-              <li>Risparmio di €200.000 in costi assicurativi</li>
-              <li>Aumento del 25% nella produttività</li>
+              <li>Chiamate di emergenza</li>
+              <li>Messaggi di allerta</li>
+              <li>Notifiche in tempo reale</li>
+              <li>Comunicazione bidirezionale</li>
             </ul>
           </div>
-        </section>
+        </div>
 
-        <section class="mb-12">
-          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Analisi Costi-Benefici</h2>
-          <h3 class="text-2xl font-bold mb-4">Investimento e ROI</h3>
-          <ul class="list-disc pl-6 mb-6">
-            <li><strong>Costi Tipici:</strong>
-              <ul class="pl-6 mt-2">
-                <li>Dispositivi: €300-500 per unità</li>
-                <li>Implementazione sistema: €5.000-15.000</li>
-                <li>Formazione iniziale: €2.000-5.000</li>
-              </ul>
-            </li>
-            <li><strong>Benefici Economici:</strong>
-              <ul class="pl-6 mt-2">
-                <li>Riduzione premi assicurativi: 20-45%</li>
-                <li>Diminuzione costi legali: 60-80%</li>
-                <li>Aumento produttività: 15-25%</li>
-                <li>ROI medio: 250% nel primo anno</li>
-              </ul>
-            </li>
-          </ul>
-        </section>
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Benefici Misurabili</h2>
+        <ul class="list-disc pl-6 mb-6">
+          <li><strong>Riduzione del 75% degli incidenti</strong></li>
+          <li><strong>Intervento immediato in caso di emergenza</strong></li>
+          <li><strong>Monitoraggio costante 24/7</strong></li>
+          <li><strong>Analisi predittiva dei rischi</strong></li>
+        </ul>
 
         <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12">
-          <h3 class="text-2xl font-bold mb-4">Non Aspettare il Prossimo Incidente</h3>
-          <p class="mb-6">La tecnologia degli smartwatch sta rivoluzionando la sicurezza sul lavoro. Non rimanere indietro:</p>
+          <h3 class="text-2xl font-bold mb-4">Inizia Oggi la Trasformazione Digitale della Sicurezza</h3>
+          <p class="mb-6">Scopri come la tecnologia può proteggere il tuo team:</p>
           <ul class="mb-6 space-y-2">
-            <li>✓ Protezione completa dei lavoratori 24/7</li>
-            <li>✓ ROI significativo e misurabile</li>
-            <li>✓ Conformità normativa garantita</li>
+            <li>✓ Implementazione rapida</li>
             <li>✓ Supporto tecnico dedicato</li>
+            <li>✓ Formazione completa</li>
+            <li>✓ ROI garantito</li>
           </ul>
           <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
-            Richiedi una Demo Personalizzata di Vigilant →
+            Richiedi una Demo Gratuita →
+          </a>
+        </div>
+      </article>
+    `
+  },
+  "monitoraggio-costante-sicurezza-essenziale-2025-implementare": {
+    title: "Monitoraggio in Tempo Reale: Il Futuro è Qui",
+    metaDescription: "Scopri come il monitoraggio in tempo reale sta trasformando la sicurezza sul lavoro e perché è diventato indispensabile nel 2025.",
+    content: `
+      <article class="prose prose-lg max-w-none">
+        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-8">
+          <p class="font-bold mb-2">In questo articolo scoprirai:</p>
+          <ul>
+            <li>✓ L'importanza del monitoraggio in tempo reale</li>
+            <li>✓ Le tecnologie che rendono possibile il controllo costante</li>
+            <li>✓ Come implementare un sistema di monitoraggio efficace</li>
+            <li>✓ I benefici tangibili per la tua azienda</li>
+          </ul>
+        </div>
+
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il Monitoraggio in Tempo Reale: Una Necessità</h2>
+        <p>Nel 2025, il monitoraggio in tempo reale non è più un'opzione ma una necessità per garantire la sicurezza sul lavoro e la continuità operativa.</p>
+
+        <div class="bg-blue-50 p-6 rounded-lg my-8">
+          <p class="text-lg font-semibold mb-4">Vuoi implementare un sistema di monitoraggio all'avanguardia?</p>
+          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
+            Scopri le soluzioni di monitoraggio →
+          </a>
+        </div>
+
+        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Componenti Essenziali del Monitoraggio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-bold mb-4">Sensori e Dispositivi</h3>
+            <ul class="list-disc pl-6">
+              <li>Smartwatch avanzati</li>
+              <li>Sensori ambientali</li>
+              <li>Telecamere intelligenti</li>
+              <li>Dispositivi IoT</li>
+            </ul>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-bold mb-4">Analisi Dati</h3>
+            <ul class="list-disc pl-6">
+              <li>Machine Learning</li>
+              <li>Analisi predittiva</li>
+              <li>Dashboard in tempo reale</li>
+              <li>Report automatizzati</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12">
+          <h3 class="text-2xl font-bold mb-4">Trasforma il Tuo Approccio alla Sicurezza</h3>
+          <p class="mb-6">Implementa un sistema di monitoraggio all'avanguardia:</p>
+          <ul class="mb-6 space-y-2">
+            <li>✓ Visibilità completa 24/7</li>
+            <li>✓ Interventi immediati</li>
+            <li>✓ Analisi predittiva</li>
+            <li>✓ ROI misurabile</li>
+          </ul>
+          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
+            Richiedi una Demo Gratuita →
           </a>
         </div>
       </article>
