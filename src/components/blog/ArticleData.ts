@@ -4,12 +4,52 @@ import { reputationArticle } from "./articles/ReputationArticle";
 import { monitoringArticle } from "./articles/MonitoringArticle";
 import { preventionArticle } from "./articles/PreventionArticle";
 import { safetyArticle } from "./articles/SafetyArticle";
+import { trainingArticle } from "./articles/TrainingArticle";
 
-export const blogPosts: Record<string, { title: string; content: string; excerpt: string }> = {
-  "tecnologia-wearable-azienda-ridurre-incidenti": wearableArticle,
-  "sicurezza-lavoro-2025-evitare-sanzioni": safetyArticle2025,
-  "blocco-attivita-danni-reputazionali": reputationArticle,
-  "monitoraggio-real-time-controllo-costante": monitoringArticle,
-  "prevenzione-proattiva-anticipare-rischi": preventionArticle,
-  "sicurezza-360-soluzione-integrata-2025": safetyArticle
+// Helper function to add the common CTA to all articles
+const addCommonCTA = (content: string) => {
+  const ctaHtml = `
+    <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
+      <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Scopri come proteggere la tua azienda</h3>
+      <p class="mb-6">Prenota una chiamata gratuita per conoscere Vigilant e scoprire come può incrementare la sicurezza in azienda in maniera molto facile.</p>
+      <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Prenota una chiamata gratuita</a>
+    </div>
+  `;
+
+  // Add CTA before the closing </article> tag
+  return content.replace('</article>', `${ctaHtml}</article>`);
 };
+
+// Add the common CTA to all articles
+const articlesWithCTA = {
+  "tecnologia-wearable-azienda-ridurre-incidenti": {
+    ...wearableArticle,
+    content: addCommonCTA(wearableArticle.content)
+  },
+  "sicurezza-lavoro-2025-evitare-sanzioni": {
+    ...safetyArticle2025,
+    content: addCommonCTA(safetyArticle2025.content)
+  },
+  "blocco-attivita-danni-reputazionali": {
+    ...reputationArticle,
+    content: addCommonCTA(reputationArticle.content)
+  },
+  "monitoraggio-real-time-controllo-costante": {
+    ...monitoringArticle,
+    content: addCommonCTA(monitoringArticle.content)
+  },
+  "prevenzione-proattiva-anticipare-rischi": {
+    ...preventionArticle,
+    content: addCommonCTA(preventionArticle.content)
+  },
+  "sicurezza-360-soluzione-integrata-2025": {
+    ...safetyArticle,
+    content: addCommonCTA(safetyArticle.content)
+  },
+  "formazione-tecnologia-binomio-vincente": {
+    ...trainingArticle,
+    content: addCommonCTA(trainingArticle.content)
+  }
+};
+
+export const blogPosts = articlesWithCTA;
