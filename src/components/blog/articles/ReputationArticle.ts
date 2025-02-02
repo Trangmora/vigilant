@@ -66,12 +66,6 @@ export const reputationArticle = {
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
         <p>Evitare il blocco delle attività e proteggere la reputazione aziendale sono obiettivi imprescindibili per il successo a lungo termine. Investire in un sistema di sicurezza proattiva come Vigilant significa proteggere il patrimonio aziendale, mantenere alta la produttività e rafforzare la fiducia dei clienti. In un contesto di crescenti controlli e normative sempre più stringenti, la prevenzione diventa un investimento strategico.</p>
       </section>
-
-      <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-        <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Calcola il tuo rischio potenziale</h3>
-        <p class="mb-6">Scopri come Vigilant può proteggere il tuo business da interruzioni e danni reputazionali.</p>
-        <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
-      </div>
     </article>
   `
 };
