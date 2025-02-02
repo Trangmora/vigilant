@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
-import { Menu, X } from "lucide-react";
+import { Menu, X, BookOpen } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,6 +68,17 @@ const Navbar = () => {
                 </Button>
               </NavigationMenuItem>
               <NavigationMenuItem>
+                <Link to="/blog">
+                  <Button 
+                    variant="ghost" 
+                    className="text-[#1a365d]"
+                  >
+                    <BookOpen className="mr-2 h-4 w-4" />
+                    Blog
+                  </Button>
+                </Link>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
                 <Button 
                   variant="ghost" 
                   className="text-[#1a365d]"
@@ -123,6 +135,15 @@ const Navbar = () => {
                 >
                   Chi Siamo
                 </Button>
+                <Link to="/blog" className="w-full" onClick={() => setIsOpen(false)}>
+                  <Button
+                    variant="ghost"
+                    className="w-full justify-start text-lg"
+                  >
+                    <BookOpen className="mr-2 h-4 w-4" />
+                    Blog
+                  </Button>
+                </Link>
                 <Button
                   variant="ghost"
                   className="w-full justify-start text-lg"
