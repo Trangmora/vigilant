@@ -7,14 +7,19 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const blogPosts = [
   {
-    title: "Come migliorare la sicurezza",
-    slug: "dlgs-81-2008-guida-completa-aziende-adeguarsi-facilmente",
-    excerpt: "Il Decreto Legislativo 81/2008, noto anche come Testo Unico sulla Salute e Sicurezza sul Lavoro, rappresenta la pietra miliare normativa per la sicurezza in Italia...",
+    title: "L'importanza della sicurezza sul lavoro nell'era digitale",
+    slug: "importanza-sicurezza-lavoro-era-digitale",
+    excerpt: "Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale...",
   },
   {
-    title: "I Costi Nascosti degli Incidenti sul Lavoro",
-    slug: "incidenti-sul-lavoro-costi-nascosti-prevenzione-produttivita",
-    excerpt: "Oltre al dolore umano, gli infortuni comportano costi significativi spesso sottovalutati che possono compromettere la sostenibilità aziendale...",
+    title: "Innovazione e protezione: il ruolo della tecnologia",
+    slug: "innovazione-protezione-tecnologia-sicurezza",
+    excerpt: "In un'epoca in cui l'innovazione tecnologica è al centro di ogni strategia aziendale, la sicurezza sul lavoro non può rimanere indietro...",
+  },
+  {
+    title: "Prevenzione attiva e monitoraggio costante: la rivoluzione di Vigilant",
+    slug: "prevenzione-attiva-monitoraggio-costante",
+    excerpt: "La prevenzione è la chiave per evitare incidenti sul lavoro e garantire la continuità operativa...",
   },
   {
     title: "EasySafe: Lo Smartwatch che Salva Vite",

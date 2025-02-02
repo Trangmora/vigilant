@@ -1,22 +1,17 @@
-import { technologyArticles } from './articles/TechnologyArticles';
-import { preventionArticles } from './articles/PreventionArticles';
 import { securityArticles } from './articles/SecurityArticles';
+import { preventionArticles } from './articles/PreventionArticles';
+import { technologyArticles } from './articles/TechnologyArticles';
 
 export const blogPosts = {
-  "futuro-sicurezza-lavoro-digitale-innovazioni-vigilant": {
-    title: "Il Futuro Digitale della Sicurezza",
-    content: technologyArticles["futuro-sicurezza-lavoro-digitale-innovazioni-vigilant"].content,
-    excerpt: "IoT, AI e cloud computing stanno rivoluzionando la sicurezza sul lavoro. Scopri le innovazioni che stanno plasmando il futuro...",
+  "importanza-sicurezza-lavoro-era-digitale": {
+    title: "L'importanza della sicurezza sul lavoro nell'era digitale: come Vigilant trasforma la prevenzione",
+    content: securityArticles["importanza-sicurezza-lavoro-era-digitale"].content,
+    excerpt: "Nel mondo del lavoro moderno, la sicurezza non è solo un obbligo normativo, ma anche un investimento strategico per la produttività e la reputazione aziendale...",
   },
-  "come-migliorare-la-sicurezza": {
-    title: "Come migliorare la sicurezza",
-    content: `
-      <article class="prose prose-lg max-w-none">
-        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
-        <p>Il Decreto Legislativo 81/2008, noto anche come Testo Unico sulla Salute e Sicurezza sul Lavoro, rappresenta la pietra miliare normativa per la sicurezza in Italia...</p>
-      </article>
-    `,
-    excerpt: "Il Decreto Legislativo 81/2008, noto anche come Testo Unico sulla Salute e Sicurezza sul Lavoro, rappresenta la pietra miliare normativa per la sicurezza in Italia...",
+  "innovazione-protezione-tecnologia-sicurezza": {
+    title: "Innovazione e protezione: il ruolo della tecnologia nella sicurezza aziendale",
+    content: technologyArticles["innovazione-protezione-tecnologia-sicurezza"].content,
+    excerpt: "In un'epoca in cui l'innovazione tecnologica è al centro di ogni strategia aziendale, la sicurezza sul lavoro non può rimanere indietro...",
   },
   "i-costi-nascosti-degli-incidenti-sul-lavoro": {
     title: "I Costi Nascosti degli Incidenti sul Lavoro",

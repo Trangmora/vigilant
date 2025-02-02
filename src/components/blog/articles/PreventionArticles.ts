@@ -1,139 +1,112 @@
 export const preventionArticles = {
-  "incidenti-sul-lavoro-costi-nascosti-prevenzione-produttivita": {
-    title: "I Costi Nascosti degli Incidenti sul Lavoro: Analisi Completa 2024",
-    metaDescription: "Analisi approfondita dei costi diretti e indiretti degli incidenti sul lavoro. Scopri strategie efficaci di prevenzione per proteggere la tua azienda.",
+  "prevenzione-attiva-monitoraggio-costante": {
+    title: "Prevenzione attiva e monitoraggio costante: la rivoluzione di Vigilant",
     content: `
       <article class="prose prose-lg max-w-none">
-        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-8">
-          <p class="font-bold mb-2">In questo articolo scoprirai:</p>
-          <ul>
-            <li>✓ L'impatto finanziario completo degli incidenti sul lavoro</li>
-            <li>✓ Come calcolare i costi nascosti degli infortuni</li>
-            <li>✓ Strategie efficaci di prevenzione e gestione del rischio</li>
-            <li>✓ ROI dell'investimento in sicurezza sul lavoro</li>
-          </ul>
-        </div>
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
+          <p>La prevenzione è la chiave per evitare incidenti sul lavoro e garantire la continuità operativa. In questo articolo, approfondiremo il concetto di prevenzione attiva e il ruolo cruciale del monitoraggio costante offerto da Vigilant. Scopriremo come questa soluzione possa trasformare il modo in cui le aziende gestiscono la sicurezza, riducendo i rischi e aumentando l'efficienza operativa.</p>
+        </section>
 
-        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">L'Impatto Finanziario degli Incidenti sul Lavoro</h2>
-        <p>Gli incidenti sul lavoro comportano costi significativi che spesso vanno ben oltre le spese immediate e visibili. Un'analisi approfondita rivela l'ampio spettro di impatti finanziari che possono compromettere la sostenibilità aziendale.</p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-          <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-bold mb-4">Costi Diretti</h3>
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">La necessità di una prevenzione attiva</h2>
+          <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
             <ul class="list-disc pl-6">
-              <li>Spese mediche e riabilitative</li>
-              <li>Indennità di infortunio</li>
-              <li>Aumenti dei premi assicurativi</li>
-              <li>Sanzioni e spese legali</li>
+              <li>I limiti dei controlli tradizionali: I controlli periodici non riescono a intercettare le situazioni di pericolo in tempo reale.</li>
+              <li>L'approccio proattivo: La prevenzione attiva implica l'identificazione e l'eliminazione dei rischi prima che possano causare incidenti.</li>
             </ul>
           </div>
-          <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-bold mb-4">Costi Indiretti</h3>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Come funziona il monitoraggio costante con Vigilant</h2>
+          <ul class="list-disc pl-6 mb-6">
+            <li>Sensori e dispositivi intelligenti: L'EasySafe Smartwatch e altri dispositivi di rilevamento integrati monitorano continuamente i parametri vitali e ambientali.</li>
+            <li>Notifiche istantanee: In caso di anomalie, il sistema invia immediatamente alert, permettendo un intervento tempestivo.</li>
+            <li>Analisi predittiva: L'algoritmo di Vigilant analizza i dati raccolti per prevedere eventuali situazioni di rischio.</li>
+          </ul>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Benefici della prevenzione attiva</h2>
+          <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
             <ul class="list-disc pl-6">
-              <li>Perdita di produttività</li>
-              <li>Danni all'immagine aziendale</li>
-              <li>Costi di sostituzione del personale</li>
-              <li>Impatto sul morale dei dipendenti</li>
+              <li>Riduzione degli incidenti: Intervenendo prima che un rischio diventi critico, si riducono drasticamente le probabilità di incidenti.</li>
+              <li>Maggiore efficienza operativa: Il monitoraggio costante consente di mantenere un ambiente di lavoro sicuro, riducendo le interruzioni delle attività.</li>
+              <li>Rispetto delle normative: Un sistema proattivo facilita l'adeguamento ai requisiti di legge, evitando sanzioni e blocchi delle attività.</li>
             </ul>
           </div>
-        </div>
+        </section>
 
-        <div class="bg-blue-50 p-6 rounded-lg my-8">
-          <p class="text-lg font-semibold mb-4">Proteggi il tuo investimento più importante: il tuo team</p>
-          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
-            Scopri come prevenire i costi nascosti →
-          </a>
-        </div>
-
-        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il Vero Costo degli Incidenti</h2>
-        <p>Studi recenti dimostrano che per ogni euro di costo diretto, un'azienda sostiene mediamente 4-5 euro di costi indiretti. Questo "effetto iceberg" può avere un impatto devastante sulla redditività aziendale.</p>
-
-        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Prevenzione: Un Investimento Strategico</h2>
-        <p>Investire nella prevenzione non è solo un obbligo legale, ma una scelta strategica che può generare significativi ritorni sull'investimento:</p>
-        
-        <ul class="list-disc pl-6 mb-6">
-          <li><strong>Riduzione dei costi assicurativi</strong></li>
-          <li><strong>Miglioramento della produttività</strong></li>
-          <li><strong>Rafforzamento della reputazione aziendale</strong></li>
-          <li><strong>Maggiore competitività sul mercato</strong></li>
-        </ul>
-
-        <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12">
-          <h3 class="text-2xl font-bold mb-4">Proteggi la Tua Azienda</h3>
-          <p class="mb-6">Una soluzione completa per la prevenzione degli incidenti sul lavoro:</p>
-          <ul class="mb-6 space-y-2">
-            <li>✓ 90% di copertura dei rischi aziendali</li>
-            <li>✓ Monitoraggio real-time dei parametri di sicurezza</li>
-            <li>✓ Sistema di prevenzione proattiva</li>
-            <li>✓ 80% più efficace dei sistemi tradizionali</li>
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Implementazione e personalizzazione della soluzione</h2>
+          <ul class="list-disc pl-6 mb-6">
+            <li>Flessibilità del sistema: Vigilant si adatta alle esigenze specifiche di ogni azienda, integrandosi facilmente con l'infrastruttura esistente.</li>
+            <li>Formazione e supporto: Il team di esperti di Vigilant offre formazione continua e assistenza tecnica per massimizzare l'efficacia del sistema.</li>
           </ul>
-          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
-            Richiedi una Demo Gratuita →
-          </a>
+        </section>
+
+        <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
+          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Pronto a rivoluzionare la sicurezza della tua azienda?</h3>
+          <p class="mb-6">Non aspettare che un incidente comprometta la tua attività. Scopri come Vigilant può trasformare la prevenzione in un vantaggio competitivo.</p>
+          <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
         </div>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
+          <p>La prevenzione attiva e il monitoraggio costante rappresentano il futuro della sicurezza sul lavoro. Con Vigilant, puoi essere sempre un passo avanti rispetto ai rischi, garantendo un ambiente sicuro e conforme alle normative. Investi nella tecnologia, investi nella sicurezza: il benessere del tuo team e la continuità operativa della tua azienda dipendono da questa scelta.</p>
+        </section>
       </article>
     `
   },
-  "prevenzione-attiva-infortuni-oltre-reazione-approccio-proattivo": {
-    title: "Prevenire è Meglio che Curare: La Nuova Era della Sicurezza",
-    metaDescription: "Scopri come l'approccio proattivo alla sicurezza sul lavoro può trasformare la tua azienda e prevenire incidenti prima che accadano.",
+  "storie-vere-vigilant-salva-aziende": {
+    title: "Storie vere: come Vigilant ha salvato aziende da incidenti e crisi reputazionali",
     content: `
       <article class="prose prose-lg max-w-none">
-        <div class="bg-[#F1F0FB] p-6 rounded-lg mb-8">
-          <p class="font-bold mb-2">In questo articolo scoprirai:</p>
-          <ul>
-            <li>✓ I vantaggi dell'approccio proattivo alla sicurezza</li>
-            <li>✓ Come implementare strategie di prevenzione efficaci</li>
-            <li>✓ Le tecnologie che supportano la prevenzione attiva</li>
-            <li>✓ Case study di successo nella prevenzione</li>
-          </ul>
-        </div>
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Introduzione</h2>
+          <p>Le storie di successo sono il miglior biglietto da visita per dimostrare l'efficacia di una soluzione. In questo articolo, analizziamo alcune storie vere di aziende che hanno affrontato gravi incidenti sul lavoro e come, grazie a Vigilant, sono riuscite a evitare conseguenze devastanti. Scopri come la prevenzione attiva e il monitoraggio costante hanno fatto la differenza.</p>
+        </section>
 
-        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">La Necessità di un Approccio Proattivo</h2>
-        <p>Un approccio proattivo alla sicurezza non è più un'opzione: è una necessità per il successo aziendale. La prevenzione attiva permette di identificare e neutralizzare i rischi prima che si trasformino in incidenti.</p>
-
-        <div class="bg-blue-50 p-6 rounded-lg my-8">
-          <p class="text-lg font-semibold mb-4">Vuoi essere proattivo nella sicurezza?</p>
-          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
-            Scopri come implementare la prevenzione attiva →
-          </a>
-        </div>
-
-        <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Elementi Chiave della Prevenzione Attiva</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-          <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-bold mb-4">Monitoraggio Continuo</h3>
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Il contesto: rischi e conseguenze degli incidenti sul lavoro</h2>
+          <div class="bg-[#F1F0FB] p-6 rounded-lg mb-6">
             <ul class="list-disc pl-6">
-              <li>Sensori avanzati</li>
-              <li>Analisi in tempo reale</li>
-              <li>Alert immediati</li>
-              <li>Interventi tempestivi</li>
+              <li>Rischi e impatti: Incidenti sul lavoro possono comportare interruzioni delle attività, azioni legali e danni reputazionali.</li>
+              <li>Il costo umano ed economico: Ogni incidente non solo mette a repentaglio la salute dei lavoratori, ma può avere ripercussioni significative sui bilanci aziendali.</li>
             </ul>
           </div>
-          <div class="bg-white p-6 rounded-lg shadow">
-            <h3 class="text-xl font-bold mb-4">Analisi Predittiva</h3>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Storia vera: Quarry Srl di Trieste</h2>
+          <p>Quarry Srl era sull'orlo del collasso: un incidente sul lavoro aveva portato a 13 anni di blocco delle attività, un processo penale e la perdita di beni personali per il titolare.</p>
+          <div class="bg-[#F1F0FB] p-6 rounded-lg my-6">
             <ul class="list-disc pl-6">
-              <li>Machine learning</li>
-              <li>Pattern recognition</li>
-              <li>Previsione dei rischi</li>
-              <li>Azioni preventive</li>
+              <li>La svolta: L'adozione di Vigilant ha permesso di attivare un monitoraggio in tempo reale, prevenendo ulteriori incidenti e consentendo un intervento immediato in caso di emergenza.</li>
+              <li>Il risultato: L'azienda ha potuto riprendere le attività, risanare la propria reputazione e dimostrare ai dipendenti e ai clienti che la sicurezza era diventata una priorità.</li>
             </ul>
           </div>
+        </section>
+
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Altre testimonianze di successo</h2>
+          <ul class="list-disc pl-6 mb-6">
+            <li>TechnoLogistics SpA: Con una riduzione del 75% degli incidenti nel primo anno di utilizzo, l'azienda ha confermato l'efficacia della tecnologia Vigilant.</li>
+            <li>Industrial Solutions: Un investimento in Vigilant ha portato a un notevole miglioramento nella sicurezza e nella produttività, confermando che la protezione dei lavoratori è un valore aggiunto per qualsiasi impresa.</li>
+          </ul>
+        </section>
+
+        <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
+          <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
+          <p class="mb-6">Proteggi la tua azienda e i tuoi dipendenti con una soluzione che ha già dimostrato la sua efficacia sul campo.</p>
+          <a href="#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
         </div>
 
-        <div class="bg-[#F1F0FB] p-8 rounded-lg mt-12">
-          <h3 class="text-2xl font-bold mb-4">Trasforma la Sicurezza nella Tua Azienda</h3>
-          <p class="mb-6">Implementa oggi stesso un sistema di prevenzione attiva:</p>
-          <ul class="mb-6 space-y-2">
-            <li>✓ Riduzione del 75% degli incidenti</li>
-            <li>✓ ROI significativo nel primo anno</li>
-            <li>✓ Protezione completa del team</li>
-            <li>✓ Conformità normativa garantita</li>
-          </ul>
-          <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">
-            Richiedi una Demo Gratuita →
-          </a>
-        </div>
+        <section class="mb-12">
+          <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
+          <p>Le esperienze di aziende come Quarry Srl, TechnoLogistics SpA e Industrial Solutions dimostrano che la prevenzione attiva e il monitoraggio costante possono fare la differenza. Con Vigilant, la sicurezza non è solo un obbligo normativo, ma una strategia vincente per proteggere le persone e il business. Scegli la tecnologia che salva vite e reputazioni.</p>
+        </section>
       </article>
     `
   }
