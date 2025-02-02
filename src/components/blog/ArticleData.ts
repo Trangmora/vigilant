@@ -7,6 +7,7 @@ import { safetyArticle } from "./articles/SafetyArticle";
 import { trainingArticle } from "./articles/TrainingArticle";
 import { emergencyArticle } from "./articles/EmergencyArticle";
 import { futureArticle2024 } from "./articles/FutureArticle2024";
+import { digitalizationArticle } from "./articles/DigitalizationArticle";
 
 // Helper function to add the common CTA to all articles
 const addCommonCTA = (content: string) => {
@@ -62,5 +63,9 @@ export const blogPosts = {
   "futuro-sicurezza-lavoro-trend-innovazioni-2024": {
     ...futureArticle2024,
     content: addCommonCTA(futureArticle2024.content)
+  },
+  "digitalizzazione-sicurezza-lavoro-tecnologie": {
+    ...digitalizationArticle,
+    content: addCommonCTA(digitalizationArticle.content)
   }
 };

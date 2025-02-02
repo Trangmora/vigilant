@@ -68,12 +68,6 @@ export const wearableArticle = {
 
       <h2>Conclusioni</h2>
       <p>La tecnologia wearable rappresenta una rivoluzione per la sicurezza sul lavoro. Grazie a dispositivi come il Vigilant Smartwatch, le aziende possono ridurre significativamente gli incidenti, monitorare in tempo reale lo stato dei lavoratori e intervenire tempestivamente in situazioni di emergenza. Investire in queste tecnologie non solo protegge i dipendenti, ma aumenta anche l'efficienza operativa e riduce i costi legati agli incidenti.</p>
-
-      <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-        <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Scopri il potere dei wearable</h3>
-        <p class="mb-6">Prenota una demo gratuita e scopri come il Vigilant Smartwatch può fare la differenza nella prevenzione degli incidenti.</p>
-        <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
-      </div>
     </article>
   `
 };

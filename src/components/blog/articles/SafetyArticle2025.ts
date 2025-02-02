@@ -95,12 +95,6 @@ export const safetyArticle2025 = {
         <h2 class="text-3xl font-bold text-[rgba(0,0,46,255)] mb-6">Conclusioni</h2>
         <p>Il 2025 rappresenta un anno di sfide ma anche di opportunità per le aziende che decidono di investire in sicurezza. Con Vigilant, puoi essere sicuro di avere uno strumento potente e innovativo in grado di garantire la conformità al D.Lgs 81/2008, ridurre i rischi e proteggere il tuo team. Non lasciare che la negligenza metta a rischio il futuro della tua azienda.</p>
       </section>
-
-      <div class="bg-[rgba(0,0,46,0.05)] p-8 rounded-xl mb-12">
-        <h3 class="text-2xl font-bold text-[rgba(0,0,46,255)] mb-4">Non aspettare che sia troppo tardi</h3>
-        <p class="mb-6">Prenota una consulenza gratuita per valutare il livello di conformità della tua azienda e scoprire come Vigilant può aiutarti a evitare sanzioni e garantire un ambiente di lavoro sicuro.</p>
-        <a href="/#contatti" class="inline-block bg-[rgba(0,0,46,255)] text-white px-6 py-3 rounded-lg hover:bg-[rgba(0,0,46,0.9)] transition-colors">Richiedi una demo gratuita</a>
-      </div>
     </article>
   `
-};
+};`
