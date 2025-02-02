@@ -6,11 +6,10 @@ import { ArrowRight, Clock, MessageSquare, Bookmark, Shield, TrendingUp, Sparkle
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { blogPosts } from "./blog/ArticleData";
 
-const recentPosts = [...blogPosts].sort((a, b) => 0.5 - Math.random()); // Simulating different order for recent posts
-const popularPosts = blogPosts.slice(0, 5); // Most read posts (first 5)
-
 const Blog = () => {
   const [currentTab, setCurrentTab] = React.useState("recent");
+  const recentPosts = [...blogPosts].sort((a, b) => 0.5 - Math.random());
+  const popularPosts = blogPosts.slice(0, 5);
   const displayedPosts = currentTab === "recent" ? recentPosts : popularPosts;
 
   return (
