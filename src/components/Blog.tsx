@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Clock, MessageSquare, Bookmark } from "lucide-react";
+import { ArrowRight, Clock, MessageSquare, Bookmark, Shield } from "lucide-react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const blogPosts = [
   {
-    title: "D.Lgs 81/2008: Guida Completa per Aziende nel 2025 + Come Adeguarsi Facilmente",
+    title: "Come migliorare la sicurezza",
     slug: "dlgs-81-2008-guida-completa-aziende-adeguarsi-facilmente",
     excerpt: "Il Decreto Legislativo 81/2008, noto anche come Testo Unico sulla Salute e Sicurezza sul Lavoro, rappresenta la pietra miliare normativa per la sicurezza in Italia...",
   },
@@ -61,9 +61,12 @@ const Blog = () => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h1 className="text-5xl font-bold mb-12 text-[rgba(0,0,46,255)] font-montserrat">
-          Articoli efficaci
-        </h1>
+        <div className="flex items-center gap-3 mb-12">
+          <Shield className="w-8 h-8 text-[rgba(0,0,46,255)]" />
+          <h1 className="text-5xl font-bold text-[rgba(0,0,46,255)] font-montserrat">
+            Blog sulla Sicurezza
+          </h1>
+        </div>
 
         <Tabs defaultValue="recent" className="mb-12">
           <TabsList className="bg-[#F1F0FB] w-full md:w-auto">
