@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
@@ -87,6 +88,16 @@ const Navbar = () => {
                   Contatti
                 </Button>
               </NavigationMenuItem>
+              <NavigationMenuItem>
+                <a href="https://app.vigilantpro.it/" target="_blank" rel="noopener noreferrer">
+                  <Button 
+                    variant="ghost" 
+                    className="text-[#1a365d]"
+                  >
+                    Accedi
+                  </Button>
+                </a>
+              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
         </div>
@@ -151,6 +162,20 @@ const Navbar = () => {
                 >
                   Contatti
                 </Button>
+                <a 
+                  href="https://app.vigilantpro.it/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="w-full"
+                  onClick={() => setIsOpen(false)}
+                >
+                  <Button
+                    variant="ghost"
+                    className="w-full justify-start text-lg"
+                  >
+                    Accedi
+                  </Button>
+                </a>
                 <Button
                   className="w-full bg-[#2ecc71] hover:bg-[#2ecc71]/90 text-lg mt-4"
                   onClick={() => scrollToSection('contatti')}
