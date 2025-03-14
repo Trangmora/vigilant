@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import { toast } from "@/components/ui/use-toast";
 
@@ -18,7 +19,7 @@ const ContactForm = () => {
     script.onload = () => {
       if (window.Calendly) {
         window.Calendly.initInlineWidget({
-          url: 'https://calendly.com/federico-lonza/easysafe',
+          url: 'https://calendly.com/federico-lonza/vigilant?preview_source=et_card&month=2025-03',
           parentElement: document.getElementById('calendly-embed'),
           prefill: {},
           utm: {}
@@ -30,7 +31,7 @@ const ContactForm = () => {
       if (e.data.event === 'calendly.event_scheduled') {
         toast({
           title: "Appuntamento Confermato",
-          description: "Grazie per aver prenotato una demo di EasySafe. Riceverai una email di conferma.",
+          description: "Grazie per aver prenotato una demo di Vigilant. Riceverai una email di conferma.",
         });
       }
     };
